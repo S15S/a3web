@@ -3,3 +3,19 @@
 h1 {
     color:blue;
 }
+
+/* footer css assumes font colour and style will be set at a "page" level*/
+.ListFooter1{
+    width:30%;
+    text-align: left;
+}
+
+.FooterTxt {
+    width: 40%;
+    text-align: center;
+}
+
+.ListFooter2 {
+    width: 30%;
+    text-align:right;
+}
