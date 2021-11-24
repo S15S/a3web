@@ -46,7 +46,6 @@ img {
 /* footer css assumes font colour and style will be set at a "page" level*/
 
 .pgfooter {
-  position:fixed;
   background-color:darkolivegreen;
   margin-bottom: 0px;
   height:200px;
