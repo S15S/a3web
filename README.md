@@ -20,9 +20,9 @@ It will also have 5 specifc pages that go into detail about how GIS can be appli
 --- | --- | --- | ---
 Design colour palette to be used across the webpages | Carol | November 22, 2021
 Create navbar that contains tabs for each of the 8 pages and distinguishes active tab from inactive tab | Carol | November 22, 2021
-Create a banner that indicates which page the customer is on, with relevant title, subtitle and background image | Becca | November 22, 2021
+Create a banner that indicates which page the customer is on, with relevant title, subtitle and background image | Becca | November 22, 2021 | Y
 Create the HTML for the primary content block that will hold the text for the active page and any related content (images, links, maps, etc) | Kira | November 20, 2021 | Y
-Create the CSS for the primary content block mentioned above | Stephanie | November 22, 2021
+Create the CSS for the primary content block mentioned above | Stephanie | November 22, 2021 | Y
 Create a static footer that will be consistent across all pages and includes our company's name, location and one contact | Kathleen | November 22, 2021 | Y
 Merge all edits (HTML & CSS) and ensure final template is functional | All | November 24, 2021
 Submit template design to D2L | Kira | November 25, 2021
