@@ -44,20 +44,33 @@ img {
 }
 
 /* footer css assumes font colour and style will be set at a "page" level*/
-.ListFooter1{
-    width:30%;
-    text-align: left;
+
+.pgfooter {
+  position:fixed;
+  background-color:darkolivegreen;
+  margin-bottom: 0px;
+  height:200px;
+  width:100%;
 }
 
-.FooterTxt {
-    width: 40%;
-    text-align: center;
+.Footertxt {
+  float:left;
+  width:40%;
+  margin-left:25px;
+  margin-top:25px;
+}
+
+.ListFooter1 {
+  float: right;
+  margin-right:100px;
 }
 
 .ListFooter2 {
-    width: 30%;
-    text-align:right;
+  float:left; 
+  margin-left:50px;
 }
+
+
 /* The Banner (Called a hero image) CSS - BC November 24*/
     /*This sets up the height of the whole page - needed by CSS because we are defining the height of the image as a percent of the page*/   
     body, html {
