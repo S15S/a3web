@@ -18,8 +18,8 @@ It will also have 5 specifc pages that go into detail about how GIS can be appli
 ### Template
 *Goal* | *Assigned to* | *Due by* | *Complete? (Y/N)*
 --- | --- | --- | ---
-Design colour palette to be used across the webpages | Carol | November 22, 2021
-Create navbar that contains tabs for each of the 8 pages and distinguishes active tab from inactive tab | Carol | November 22, 2021
+Design colour palette to be used across the webpages | Carol | November 22, 2021 | Y
+Create navbar that contains tabs for each of the 8 pages and distinguishes active tab from inactive tab | Carol | November 22, 2021 | Y
 Create a banner that indicates which page the customer is on, with relevant title, subtitle and background image | Becca | November 22, 2021 | Y
 Create the HTML for the primary content block that will hold the text for the active page and any related content (images, links, maps, etc) | Kira | November 20, 2021 | Y
 Create the CSS for the primary content block mentioned above | Stephanie | November 22, 2021 | Y

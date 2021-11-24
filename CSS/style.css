@@ -1,5 +1,7 @@
 /*This will be our css style sheet*/
-/*Last Update: 11/23/2021 by Steph */
+/*Last Update: 11/24/2021 by Carol */
+/* The colour palette for the site can be found and changed here: https://coolors.co/6c4423-2c3531-165844-007a56-3b8268-758a79-d9b08c-d1e8e2-2e6f72-116466 */
+
 h1 {
     color:blue;
 }
@@ -86,3 +88,44 @@ img {
         color: white;
     }
 /* end of the Banner CSS */ 
+
+/* Navigation Bar CSS - CB Nov 24 */
+/* colours are temporary placeholders */
+ul.NavigationBar {
+    /* this will remove the bullet points since we don't need them */
+      list-style-type: none;
+    /* margin and padding at zero removes browser defaults */
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #2C3531;
+    }
+    ul.NavigationBar li {
+    /* this will make labels start at left of screen */
+      float: left;
+    /* I've added a link block border for extra contrast */
+      border-right: 1px solid #D9B08C;
+    }
+    ul.NavigationBar li a {
+    /* block display makes the whole area a clickable link*/
+      display: block;
+      color: #D9B08C;
+      text-align: center;
+      padding: 14px 16px;
+    /* these settings are ready in here so that we can edit them later once we've decided on fonts */
+    /*  text-decoration: none; */
+    /*  font-family: first option, second option, serif/sans serif; */
+    /*  font-size: 18px; */
+    }
+    /* I wanted a nice colour for when you hover on the link, re:colour palette above */
+    ul.NavigationBar li a:hover:not(.active) {
+      background-color: #758A79;
+    }
+    ul.NavigationBar li a.active {
+      background-color: #3B8268;
+    }
+    /* this will add settings for if viewing in a small window or on a mobile device*/
+    @media screen and (max-width: 600px) {
+      ul.NavigationBar li {float: none;}
+    }
+/* end of Navigation Bar CSS*/
