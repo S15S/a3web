@@ -3,7 +3,9 @@
 /*The colour palette for the site can be found and changed here: https://coolors.co/6c4423-2c3531-165844-007a56-3b8268-758a79-d9b08c-d1e8e2-2e6f72-116466 */
 
 h1 {
-    color:blue;
+    color: white;
+    font-family: Tahoma, sans-serif;
+    font-size: 35pt;
 }
 /* Main body css */
 h2 {
@@ -82,7 +84,7 @@ img {
 
     /*add the banner image - found in the folder Images -> Banner. Could add a linear-gradient which would darken/ make less bright the image*/
     .hero-image {
-        background-image: url("../Images/Banner/Rubber_duckies_So_many_ducks.jpg");
+        background-image: url("../Images/Banner/Trees.jpg");
 
         /* This sets up the height of the image as a percent of the page - currently set to 50% */
         height: 50%;
@@ -102,6 +104,8 @@ img {
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
+        font-size: 18pt;
+        font-family: Tahoma, sans-serif;
     }
 /* end of the Banner CSS */ 
 
