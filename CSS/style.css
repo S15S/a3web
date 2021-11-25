@@ -12,10 +12,12 @@ h2 {
 
 h3 {
 	text-align: left;
+  font-family: garamond, serif;
 }
 
 p1 {
 	text-align: left;
+  font-family: garamond, serif;
 }
 
 .contentContainer {
@@ -23,16 +25,18 @@ p1 {
   text-align: center;
   margin: auto;
   margin-top : 20px;
+  font-family: garamond, serif;
 }
 
 .headlineContainer {
   text-align: center;
+  font-family: Tahoma, sans-serif; 
 }
 
 .panelContainer{
 	display: flex;
 	align-items: center;
-	justify-content: center
+	justify-content: center;
 }
 
 img {
