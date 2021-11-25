@@ -1,6 +1,6 @@
 /*This will be our css style sheet*/
 /*Last Update: 11/24/2021 by Carol */
-/* The colour palette for the site can be found and changed here: https://coolors.co/6c4423-2c3531-165844-007a56-3b8268-758a79-d9b08c-d1e8e2-2e6f72-116466 */
+/*The colour palette for the site can be found and changed here: https://coolors.co/6c4423-2c3531-165844-007a56-3b8268-758a79-d9b08c-d1e8e2-2e6f72-116466 */
 
 h1 {
     color:blue;
@@ -109,14 +109,17 @@ ul.NavigationBar {
     /* margin and padding at zero removes browser defaults */
       margin: 0;
       padding: 0;
+      width: 100%;
       overflow: hidden;
       background-color: #2C3531;
     }
     ul.NavigationBar li {
     /* this will make labels start at left of screen */
       float: left;
-    /* I've added a link block border for extra contrast */
-      border-right: 1px solid #D9B08C;
+    /* added a link block outline for extra contrast */
+      outline: #D9B08C solid 1px;
+    /* divide 100% eidth evenly between eight links */
+      width: 12.5%;
     }
     ul.NavigationBar li a {
     /* block display makes the whole area a clickable link*/
