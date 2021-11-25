@@ -7,7 +7,7 @@ h1 {
     font-family: Tahoma, sans-serif;
     font-size: 35pt;
 }
-/* Main body css */
+/* Main body css Steph */
 h2 {
 	text-align: center;
 }
@@ -25,15 +25,18 @@ p1 {
   text-align: center;
   margin: auto;
   margin-top : 20px;
+  font-family: garamond, serif;
 }
 
 .headlineContainer {
+  text-align: center;
+  font-family: Tahoma, sans-serif; 
 }
 
 .panelContainer{
 	display: flex;
 	align-items: center;
-	justify-content: center
+	justify-content: center;
 }
 
 img {
@@ -49,31 +52,43 @@ img {
 	flex-basis: 40%
 }
 
-/* footer css assumes font colour and style will be set at a "page" level*/
-
+/*This is the css for the page footer sets the background color the same as the 
+nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 .pgfooter {
-  background-color:darkolivegreen;
+  background-color: #2C3531;
   margin-bottom: 0px;
   height:200px;
   width:100%;
+  font-family: garamond;
+  color: #D9B08C;
+  font-size:16pt; 
 }
+/*this is the main text blurb*/
 
-.Footertxt {
+.FooterTxt {
   float:left;
   width:40%;
-  margin-left:25px;
-  margin-top:25px;
+  margin-top:80px;
+  margin-left:80px;   
+}
+
+/*These are the two lists of more information*/
+.ListFooter2 {
+ float:right;
+ margin-right: 100px;
+ list-style-type: none;
+
+ 
 }
 
 .ListFooter1 {
-  float: right;
-  margin-right:100px;
+  float:right; 
+  margin-right: 50px;
+  list-style-type: none;
+
 }
 
-.ListFooter2 {
-  float:left; 
-  margin-left:50px;
-}
+
 
 
 /* The Banner (Called a hero image) CSS - BC November 24*/
@@ -136,7 +151,7 @@ ul.NavigationBar {
       text-align: center;
       padding: 14px 16px;
     /* these settings are ready in here so that we can edit them later once we've decided on fonts */
-    /*  text-decoration: none; */
+      text-decoration: none;
     /*  font-family: first option, second option, serif/sans serif; */
     /*  font-size: 18px; */
     }
@@ -149,6 +164,8 @@ ul.NavigationBar {
     }
     /* this will add settings for if viewing in a small window or on a mobile device*/
     @media screen and (max-width: 600px) {
-      ul.NavigationBar li {float: none;}
+      ul.NavigationBar li {
+        float: none;
+        width: 100%;}
     }
 /* end of Navigation Bar CSS*/
