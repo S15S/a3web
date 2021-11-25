@@ -52,31 +52,43 @@ img {
 	flex-basis: 40%
 }
 
-/* footer css assumes font colour and style will be set at a "page" level*/
-
+/*This is the css for the page footer sets the background color the same as the 
+nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 .pgfooter {
-  background-color:darkolivegreen;
+  background-color: #2C3531;
   margin-bottom: 0px;
   height:200px;
   width:100%;
+  font-family: garamond;
+  color: #D9B08C;
+  font-size:16pt; 
 }
+/*this is the main text blurb*/
 
-.Footertxt {
+.FooterTxt {
   float:left;
   width:40%;
-  margin-left:25px;
-  margin-top:25px;
+  margin-top:80px;
+  margin-left:80px;   
+}
+
+/*These are the two lists of more information*/
+.ListFooter2 {
+ float:right;
+ margin-right: 100px;
+ list-style-type: none;
+
+ 
 }
 
 .ListFooter1 {
-  float: right;
-  margin-right:100px;
+  float:right; 
+  margin-right: 50px;
+  list-style-type: none;
+
 }
 
-.ListFooter2 {
-  float:left; 
-  margin-left:50px;
-}
+
 
 
 /* The Banner (Called a hero image) CSS - BC November 24*/
