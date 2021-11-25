@@ -24,8 +24,8 @@ Create a banner that indicates which page the customer is on, with relevant titl
 Create the HTML for the primary content block that will hold the text for the active page and any related content (images, links, maps, etc) | Kira | November 20, 2021 | Y
 Create the CSS for the primary content block mentioned above | Stephanie | November 22, 2021 | Y
 Create a static footer that will be consistent across all pages and includes our company's name, location and one contact | Kathleen | November 22, 2021 | Y
-Merge all edits (HTML & CSS) and ensure final template is functional | All | November 24, 2021
-Submit template design to D2L | Kira | November 25, 2021
+Merge all edits (HTML & CSS) and ensure final template is functional | All | November 25, 2021 | (doing in lab)
+Submit template design to D2L | Kira | November 25, 2021 |
 ### Website Overview
 This is a summary of what we hope our website will contain and who is responsible for which page for the final website. 
 Due dates will be added once the template design is complete.
