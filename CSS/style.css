@@ -155,7 +155,7 @@ ul.NavigationBar {
       padding: 14px 16px;
     /* these settings are ready in here so that we can edit them later once we've decided on fonts */
       text-decoration: none;
-    /*  font-family: first option, second option, serif/sans serif; */
+      font-family: "Tahoma", sans-serif; 
     /*  font-size: 18px; */
     }
     /* I wanted a nice colour for when you hover on the link, re:colour palette above */
@@ -166,9 +166,16 @@ ul.NavigationBar {
       background-color: #3B8268;
     }
     /* this will add settings for if viewing in a small window or on a mobile device*/
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1450px) {
       ul.NavigationBar li {
         float: none;
         width: 100%;}
+
+    /* this will add settings for if viewing in a non fullscreen window */
+    @media screen and (min-width: 1451px) {
+        ul.NavigationBar li {
+          float: left;
+        /* divide 100% width evenly between eight links */
+          width: 12.5%;}
     }
 /* end of Navigation Bar CSS*/
