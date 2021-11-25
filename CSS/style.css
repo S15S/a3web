@@ -5,7 +5,7 @@
 h1 {
     color:blue;
 }
-/* Main body css */
+/* Main body css Steph */
 h2 {
 	text-align: center;
 }
@@ -26,6 +26,7 @@ p1 {
 }
 
 .headlineContainer {
+  text-align: center;
 }
 
 .panelContainer{
