@@ -6,6 +6,7 @@ h1 {
     color: white;
     font-family: Tahoma, sans-serif;
     font-size: 35pt;
+    text-shadow: 2px 2px #2C3531;
 }
 /* Main body css Steph */
 h2 {
@@ -119,6 +120,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
+        text-shadow: 2px 2px #2C3531;
         font-size: 18pt;
         font-family: Tahoma, sans-serif;
     }
@@ -147,7 +149,7 @@ ul.NavigationBar {
     ul.NavigationBar li a {
     /* block display makes the whole area a clickable link*/
       display: block;
-      color: #D9B08C;
+      color: #faf2eb;
       text-align: center;
       padding: 14px 16px;
     /* these settings are ready in here so that we can edit them later once we've decided on fonts */
