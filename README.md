@@ -30,18 +30,15 @@ Submit template design to D2L | Kira | November 25, 2021 | Y
 This is a summary of what we hope our website will contain and who is responsible for which page for the final website. 
 Due dates will be added once the template design is complete.
 #### Pages:
-1 - Home (All - further breakdown will be planned at a later date once group members' strengths have been assessed.)
-
-2 - About Us (Kathleen & Kira)
-
-3 - Services (Becca + Stephanie)
-
-4 - Archaeology (Carol)
-
-5 - Forestry (Stephanie)
-
-6 - Geography (Becca) 
-
-7 - Urban Planning (Kathleen)
-
-8 - Wildlife & Habitat Management (Kira)
+*Goal* | *Assigned to* | *Due by* | *Complete? (Y/N)*
+--- | --- | --- | ---
+Page 1: Home |  All | Monday, Dec 6th |
+Page 2: About Us | Kathleen and Kira  | Monday, Dec 6th |
+Page 3: Services | Becca + Stephanie | Monday, Dec 6th |
+Page 4: Archaeology | Carol | Monday, Dec 6th |
+Page 5: Forestry | Stephanie | Monday, Dec 6th |
+Page 6: Geography | Becca | Monday, Dec 6th |
+Page 7: Urban Planning | Kathleen | Monday, Dec 6th |
+Page 8: Wildlife & Habitat Management | Kira | Monday, Dec 6th |
+Group meeting | All | Monday after Web  |
+Submit project | Kira | Wednesday, Dec 8th |
