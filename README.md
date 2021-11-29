@@ -33,7 +33,7 @@ Due dates will be added once the template design is complete.
 *Goal* | *Assigned to* | *Due by* | *Complete? (Y/N)*
 --- | --- | --- | ---
 Page 1: Home HTML framework| Carol | Monday, Dec 6th |
-Page 1: Home CSS design|  ? | Monday, Dec 6th |
+Page 1: Home CSS design| Kathleen | Monday, Dec 6th |
 Page 1: Home content|  ? | Monday, Dec 6th |
 Page 2: About Us | Kathleen & Kira  | Monday, Dec 6th |
 Page 3: Services | Becca & Stephanie | Monday, Dec 6th |
