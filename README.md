@@ -32,7 +32,9 @@ Due dates will be added once the template design is complete.
 #### Pages:
 *Goal* | *Assigned to* | *Due by* | *Complete? (Y/N)*
 --- | --- | --- | ---
-Page 1: Home |  All | Monday, Dec 6th |
+Page 1: Home HTML framework|  ? | Monday, Dec 6th |
+Page 1: Home CSS design|  ? | Monday, Dec 6th |
+Page 1: Home content|  ? | Monday, Dec 6th |
 Page 2: About Us | Kathleen & Kira  | Monday, Dec 6th |
 Page 3: Services | Becca & Stephanie | Monday, Dec 6th |
 Page 4: Archaeology | Carol | Monday, Dec 6th |
