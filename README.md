@@ -40,5 +40,5 @@ Page 5: Forestry | Stephanie | Monday, Dec 6th |
 Page 6: Geography | Becca | Monday, Dec 6th |
 Page 7: Urban Planning | Kathleen | Monday, Dec 6th |
 Page 8: Wildlife & Habitat Management | Kira | Monday, Dec 6th |
-Group meeting | All | Monday after Web  |
+Group meeting to finalize CSS tasks | All | Monday after Web  |
 Submit project | Kira | Wednesday, Dec 8th |
