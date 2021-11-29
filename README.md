@@ -33,8 +33,8 @@ Due dates will be added once the template design is complete.
 *Goal* | *Assigned to* | *Due by* | *Complete? (Y/N)*
 --- | --- | --- | ---
 Page 1: Home |  All | Monday, Dec 6th |
-Page 2: About Us | Kathleen and Kira  | Monday, Dec 6th |
-Page 3: Services | Becca + Stephanie | Monday, Dec 6th |
+Page 2: About Us | Kathleen & Kira  | Monday, Dec 6th |
+Page 3: Services | Becca & Stephanie | Monday, Dec 6th |
 Page 4: Archaeology | Carol | Monday, Dec 6th |
 Page 5: Forestry | Stephanie | Monday, Dec 6th |
 Page 6: Geography | Becca | Monday, Dec 6th |
