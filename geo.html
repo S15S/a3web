@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Geography</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Nov 24 CB: define character set as best practice re:HTML validator-->
+    <meta charset= "UTF-8">
+</head>
+<body>
+<!-- Nov 24 CB: input language for HTML as best practice re:HTML validator-->
+    <!--@Steph: I was using this website for the general structure we're after and they have css too https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html-->
+    <!-- Nov 24 CB - adding a navbar! I've included this between the top heading and the banner-->
+    <!-- create a container for the navigation bar-->
+    <ul class="NavigationBar">
+        <!-- to highlight the active page, we'll add [class="active"] before href on each page-->
+        <!-- page links and titles to be edited as needed, I've put temporary IDs in-->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="archae.html">Archaeology</a></li>
+          <li><a href="forest.html">Forestry</a></li>
+          <li><a class="active" href="geo.html">Geography</a></li>
+          <li><a href="urban.html">Urban Planning</a></li>
+          <li><a href="habitat.html">Habitat Management</a></li>
+        </ul>
+    <!-- Nov 24 BC - Inserting the "banner" - this should be after the navbar and before the rest of the page. Since we are using it as a title/ subtitle we do not need that stuff to be included-->
+    <div class="hero-image" id='home'>
+        <div class="hero-text">
+          <h1>Geography</h1>
+          <p>How Geography can be used in GIS Consulting</p>
+        </div>
+      </div>
+    <!---Create a container that will occupy 80% of the webpage where all content except the header/footer will go-->
+    <div class='contentContainer'>
+        <!---Create a block to hold the headline of the page-->
+        <div class='headlineContainer'>
+            <h2>The headline/title of the content for each page will go here</h2>
+        </div>
+        <!---Create a block to hold one panel of content i.e. an image next to some related text-->
+        <div class='panelContainer'>
+            <div class='image'>
+                <img src='Images/Arizona.jpg' alt='Arizona Sunset in the Desert'>
+            </div>
+            <!---A block element to hold the text for the given panel, which will sit next to the image-->
+            <div class='mainText'>
+                <h3>Subtitle for this section of content</h3>
+                <p1>A paragraph of text will go here!</p1>
+            </div>
+        </div>
+        <!---This panel layout can be repeated as many times as necessary for the content on the page-->
+        <div class='panelContainer'>
+            <div class='image'>
+                <img src='Images/survey.jpg' alt='A surveyor taking measurements in a field'>
+            </div>
+            <div class='mainText'>
+                <h3>Subtitle for this section of content</h3>
+                <p1>A paragraph of text will go here!</p1>
+            </div>
+        </div>
+        <div class='panelContainer'>
+            <div class='image'>
+                <img src='Images/datamap.jpg' alt='A map of data'>
+            </div>
+            <div class='mainText'>
+                <h3>Subtitle for this section of content</h3>
+                <p1>A paragraph of text will go here!</p1>
+            </div>
+        </div>
+    </div>
+
+<!--HTML for the footer -KS nov 25-->
+
+<div class= pgfooter>
+
+    <!--list of various links we want to include in the footer likely relative links-->
+    <ul class=ListFooter1>
+        <li> <p>Fleming College GIS</p></li>
+        <li> <p>Frost Campus</p></li>
+        <li> <p>200 Albert St S, Lindsay, ON</p></li>
+
+    </ul>
+    <!---text block in the middle-->
+    <p class=FooterTxt> This will be the footer blurb for whatver we
+        decide to include here. Info about the company or the site an/or encouragement
+        to contact us!
+    </p> 
+    <!--another styled list-->
+    <ul class=ListFooter2 >
+        <li> <p>Contact Us! </p></li>
+        <li> <p>222-333-4444</p></li>
+        <li> <p>Consulting.Group11@gmail.com</p></li>
+    </ul>
+    <!--note that both lists will likely be combination of p and a tags-->
+</div>
+</body>
+</html>
+
+
+
