@@ -42,9 +42,13 @@ p {
 .wildlifeText{
 	display: flex;
 	justify-content: left;
+  align-items: center;
+  padding: 40px;
 }
 img {
 	max-width: 100%;
+  display: block;
+  margin-left: auto;
 }
 
 .mainText {
