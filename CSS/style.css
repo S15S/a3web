@@ -116,7 +116,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
       background-image: url("../Images/Banner/Trees.jpg");
     }
     #wildlife {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url("../Images/Banner/rhino.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/rhino.jpg");
     }
     /* This adds and positions the text to the image - it add's it to the center of the image (text-align: center), and positioned correctly in the image (position: absolute, top: 50% , left: 50% and transform: translate (-50%, -50%) and it set the font colour */
     .hero-text {
