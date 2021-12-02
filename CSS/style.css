@@ -103,7 +103,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 
     /*add the banner image - found in the folder Images -> Banner. Could add a linear-gradient which would darken/ make less bright the image*/
     .hero-image {
-        background-image: url("../Images/Banner/Trees.jpg");
+        background-image: url("../Images/Banner/rhino.jpg");
 
         /* This sets up the height of the image as a percent of the page - currently set to 50% */
         height: 50%;
