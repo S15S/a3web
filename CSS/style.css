@@ -43,8 +43,18 @@ p {
 	display: flex;
 	justify-content: left;
   align-items: center;
-  padding: 40px;
+  padding: 20px;
+  background-color: #D1E8E2;
 }
+.habitatContainer {
+  display: flex;
+	justify-content: left;
+  align-items: center;
+  padding: 20px;
+  background-color: #82a796;
+  margin-bottom: 10px;
+}
+
 img {
 	max-width: 100%;
   display: block;
@@ -62,6 +72,15 @@ img {
 	padding: 20px;
   text-align: left;
 }
+.habitatText {
+  max-width: 100%;
+  font-size: 20px;
+	padding: 20px;
+  text-align: left;
+}
+#habitat{
+  text-align: left;
+}
 
 #wildlifeText{
   text-align: left;
@@ -77,7 +96,22 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+#pushpins {
+  max-width: 100%;
+  height: auto;
+}
+#landcover {
+  max-width: 100%;
+  height: auto;
+}
+.imageCol {
+  flex: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.imageRow {
+  display: flex;
+}
 /*This is the css for the page footer sets the background color the same as the 
 nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 .pgfooter {
