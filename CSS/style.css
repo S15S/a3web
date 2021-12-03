@@ -74,6 +74,8 @@ img {
 }
 #gibbon {
   float:right;
+  max-width: 100%;
+  height: auto;
 }
 
 /*This is the css for the page footer sets the background color the same as the 
