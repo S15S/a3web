@@ -62,6 +62,7 @@ p {
   content: "";
   display: table;
   clear: both;
+  margin-top: 10px;
 }
 .forestcolumn { /*the is the column text */
 	display: center-left;
