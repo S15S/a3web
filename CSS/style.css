@@ -29,18 +29,7 @@ p {
   font-family: garamond, serif;
 }
 
-/*css for teams*/
 
-.panelContainerT{
-  display:flex;
-  align-items:left;
-  justify-content: space-around;
-
-}
-
-.imageT{
-  float:left;
-}
 
 .headlineContainer {
   text-align: center;
