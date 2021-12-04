@@ -30,6 +30,8 @@ p {
   font-family: garamond, serif;
 }
 
+
+
 .headlineContainer {
   text-align: center;
   font-family: Tahoma, sans-serif; 
@@ -40,6 +42,55 @@ p {
 	align-items: center;
 	justify-content: center;
 }
+
+/* Steph's Forestry stuff */
+/* the column css was found on the w3 schools website */
+.column1 {
+  float: left;
+  width: 50%;
+  font-family: garamond, serif;
+  background-color: #758A79;
+  margin-bottom: 10px
+}
+.column2 {
+  float: left;
+  width: 50%;
+  font-family: garamond, serif;
+  background-color: #D9B08C;
+  margin-bottom: 10px
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.forestcolumn { /*the is the column text */
+	display: center-left;
+    font-family: garamond, serif;
+	margin-left: 20px
+}
+.forestrycontainer { /*the is the area where the block of text will go */
+	display: flex;
+	align-items: center;
+	padding: 30px;
+	background-color: #2E6F72;
+	margin-bottom: 10px
+}
+.foresttext { /*the is the forestry container text */
+	display: center-left;
+    font-family: garamond, serif;
+	margin-left: 10px
+}
+.forestimage {
+	width: 100px;
+    height: 100px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+/* Steph's Forestry Stuff */
+
 .wildlifeText{
 	display: flex;
 	justify-content: left;
