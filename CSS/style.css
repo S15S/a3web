@@ -7,6 +7,7 @@ h1 {
     font-family: Tahoma, sans-serif;
     font-size: 35pt;
     text-shadow: 2px 2px #2C3531;
+    text-align: center;
 }
 /* Main body css Steph */
 h2 {
@@ -200,8 +201,6 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 }
 
 
-
-
 /* The Banner (Called a hero image) CSS - BC November 24*/
     /*This sets up the height of the whole page - needed by CSS because we are defining the height of the image as a percent of the page*/   
     body, html {
@@ -231,6 +230,9 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 
     #Urbanp {
       background-image: url("../Images/Banner/bannerUP.jpg")
+    }
+    #about {
+      background-image: url("../Images/Banner/team.jpg");
     }
 
     /* This adds and positions the text to the image - it add's it to the center of the image (text-align: center), and positioned correctly in the image (position: absolute, top: 50% , left: 50% and transform: translate (-50%, -50%) and it set the font colour */
