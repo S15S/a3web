@@ -93,16 +93,19 @@ p {
 /* End of Steph's Forestry Stuff */
 
 .bioImg-with-text{
+  vertical-align: top;
   text-align: justify;
   text-align-last: center;
-  width:337px;
-  flex: 33%;
+  width:33%;
+  display: inline-block;
   padding:10px;
 }
 .bioImg-with-text img {
-  display: block;
   margin-left: auto;
   margin-right:auto;
+}
+.caption {
+  display: block;
 }
 @media screen and (max-width: 1450px) {
   .bioImg-with-text {
