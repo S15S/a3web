@@ -41,6 +41,6 @@ Page 4: Archaeology | Carol | Monday, Dec 6th |
 Page 5: Forestry | Stephanie | Monday, Dec 6th |
 Page 6: Geography | Becca | Monday, Dec 6th |
 Page 7: Urban Planning | Kathleen | Monday, Dec 6th |
-Page 8: Wildlife & Habitat Management | Kira | Monday, Dec 6th |
+Page 8: Wildlife & Habitat Management | Kira | Monday, Dec 6th | Y
 Group meeting to finalize CSS tasks | All | Monday after Web  |
 Submit project | Kira | Wednesday, Dec 8th |
