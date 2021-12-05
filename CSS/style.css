@@ -29,28 +29,10 @@ p {
   margin-top : 20px;
   font-family: garamond, serif;
 }
-
-
-.contentContainerbio {
-  width: 80%;
-  margin-top : 20px;
-  font-family: garamond, serif;
-  margin:auto;
-}
 /* This is the css for the about us page */
-
-.bioimages {
-  width: 30%;
-  float:left;
+#aboutus{
+  text-align: left;
 }
-
-.biotext {
-  width:50%;
-  float:right;
-}
-
-
-
 .headlineContainer {
   text-align: center;
   font-family: Tahoma, sans-serif; 
@@ -110,6 +92,23 @@ p {
 
 /* End of Steph's Forestry Stuff */
 
+.bioImg-with-text{
+  text-align: justify;
+  text-align-last: center;
+  width:337px;
+  flex: 33%;
+  padding:10px;
+}
+.bioImg-with-text img {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+@media screen and (max-width: 1450px) {
+  .bioImg-with-text {
+    width: 100%;
+  }
+}
 /* Kira's Wildlife Conservation CSS*/
 .wildlifeText{
 	display: flex;
@@ -159,7 +158,12 @@ p {
   flex:80%;
   float:left;
   margin:5px;
+  text-align: left;
 }
+.memberName {
+  text-align: left;
+}
+
 .habitatText {
   max-width: 100%;
   font-size: 20px;
@@ -197,9 +201,6 @@ img {
   height: 100%;
   object-fit: contain;
 }
-/* 
-#aboutus {
-  margin-bottom: 20px; */
 
 /*This is the css for the page footer sets the background color the same as the 
 nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
