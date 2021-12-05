@@ -8,13 +8,9 @@
     <meta charset= "UTF-8">
 </head>
 <body>
-<!-- Nov 24 CB: input language for HTML as best practice re:HTML validator-->
-    <!--@Steph: I was using this website for the general structure we're after and they have css too https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html-->
-    <!-- Nov 24 CB - adding a navbar! I've included this between the top heading and the banner-->
     <!-- create a container for the navigation bar-->
     <ul class="NavigationBar">
-        <!-- to highlight the active page, we'll add [class="active"] before href on each page-->
-        <!-- page links and titles to be edited as needed, I've put temporary IDs in-->
+        <!-- to highlight the active page, [class="active"] appears before href-->
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Services</a></li>
@@ -24,7 +20,7 @@
           <li><a href="urban.html">Urban Planning</a></li>
           <li><a class="active" href="habitat.html">Habitat Management</a></li>
         </ul>
-    <!-- Nov 24 BC - Inserting the "banner" - this should be after the navbar and before the rest of the page. Since we are using it as a title/ subtitle we do not need that stuff to be included-->
+    <!-- Page banner altered from template using the id 'wildlife'. Page title and subtitle overlaid on image.-->
     <div class="hero-image" id='wildlife'>
         <div class="hero-text">
           <h1>Habitat & Wildlife Management</h1>
@@ -37,10 +33,11 @@
         <div class='headlineContainer'>
             <h2>GIS techniques not only allow us to understand which species and habitats need protecting, they empower us with the skills to determine the best course of action to do so.</h2>
         </div>
-        <!---Create a block to hold one panel of content i.e. an image next to some related text-->
+        <!---Create a block to hold the wildlife conservation content (text and image)-->
         <div class='wildlifeText'>
             <!---A block element to hold the text for the given panel, which will sit next to the image-->
             <div class='BodyText'>
+                <!--Inspiration for the content of this section came from the following website by ESRI: https://storymaps.arcgis.com/stories/389a2c6548194effa10b7ccef6b3e82d-->
                 <h2 id='wildlifeText'>Species Tracking and Inventories</h2>
                 <p>Databases are built and implemented in geographic information systems to accumulate species data all over the world. They allow researchers to study how well or how poorly 
                     a given populatio is doing over time and space. GIS data scientists and analysts maintain species inventories for future studies, such as work in the spatial analysis
@@ -52,7 +49,7 @@
                 <img src='Images/gibbon.jpg' alt='Mother and baby gibbon swinging in tree canopy' id='gibbon'>
             </div>
         </div>
-        <!---This panel layout can be repeated as many times as necessary for the content on the page-->
+        <!---Create a row of two images that will sit side by side on the page-->
         <div class='imageRow'>
             <div class='imageCol'>
                 <img src='Images/flags.jpg' alt='Flag pushpins on a map of USA' id='pushpins'>
@@ -61,7 +58,9 @@
                 <img src='Images/landuse.jpg' alt='Cultivated land with forest mountains in background' id='landcover'>
             </div>
         </div>
+        <!---Create a block to hold the habitat conservation content (text only)-->
         <div class='habitatContainer'>
+            <!--Inspiration for this section of text came from a GISLounge article: https://www.gislounge.com/role-gis-wildlife-research-conservation/-->
             <div class='habitatText'>
                 <h2 id='habitat'>Conservation Progress and Monitoring</h2>
                 <p>Monitoring conservation efforts effectiveness and progress over time is another critical task that can be accomplished with GIS. Setting conservation goals, identifying progress
