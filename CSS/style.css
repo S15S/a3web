@@ -31,7 +31,7 @@ p {
 }
 
 
-.contentContainer {
+.contentContainerbio {
   width: 80%;
   margin-top : 20px;
   font-family: garamond, serif;
@@ -41,6 +41,10 @@ p {
 .bioimages {
   width: 30%;
   float:left;
+<<<<<<< HEAD
+=======
+  float:left;
+>>>>>>> 7824385aac661d4fcee4652dcc876e166b14dd9e
 
 }
 
