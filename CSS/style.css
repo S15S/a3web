@@ -30,6 +30,19 @@ p {
   font-family: garamond, serif;
 }
 
+/* This is the css for the about us page */
+
+.bioimages {
+  width: 30%;
+  float:left;
+
+}
+
+.biotext {
+  width:50%;
+  float:right;
+}
+
 
 
 .headlineContainer {
