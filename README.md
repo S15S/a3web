@@ -34,7 +34,7 @@ Due dates will be added once the template design is complete.
 --- | --- | --- | ---
 Page 1: Home HTML framework| Carol | Monday, Dec 6th |
 Page 1: Home CSS design| Kathleen Becca & Steph | Monday, Dec 6th |
-Page 1: Home content|  ? | Monday, Dec 6th |
+Page 1: Home content|  Kira | Monday, Dec 6th |
 Page 2: About Us | Kathleen & Kira  | Monday, Dec 6th |
 Page 3: Services | Becca & Stephanie | Monday, Dec 6th |
 Page 4: Archaeology | Carol | Monday, Dec 6th |
