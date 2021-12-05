@@ -30,9 +30,6 @@ p {
   font-family: garamond, serif;
 }
 /* This is the css for the about us page */
-#aboutus{
-  text-align: left;
-}
 .headlineContainer {
   text-align: center;
   font-family: Tahoma, sans-serif; 
@@ -106,8 +103,9 @@ p {
 }
 .caption {
   display: block;
+  width:100%;
 }
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 720px) {
   .bioImg-with-text {
     width: 100%;
   }
@@ -149,9 +147,9 @@ p {
 .imageRow {
   display: flex;
 }
-.teamRow{
+/*.teamRow{
   display: flex;
-}
+}*/
 .bioimgCol {
   flex:20%;
   float: left;
