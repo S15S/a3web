@@ -9,7 +9,7 @@ h1 {
     text-shadow: 2px 2px #2C3531;
     text-align: center;
 }
-/* Main body css Steph */
+/* Main body css used on multiple pages - originally written by Steph */
 h2 {
 	text-align: center;
 }
@@ -89,8 +89,9 @@ p {
 	justify-content: center;
 }
 
-/* Steph's Forestry Stuff */
+/* End of Steph's Forestry Stuff */
 
+/* Kira's Wildlife Conservation CSS*/
 .wildlifeText{
 	display: flex;
 	justify-content: left;
@@ -105,43 +106,6 @@ p {
   padding: 20px;
   background-color: #82a796;
   margin-bottom: 10px;
-}
-
-img {
-	max-width: 100%;
-  display: block;
-  margin-left: auto;
-}
-
-.mainText {
-	font-size: 20px;
-	padding-left: 20px;
-  text-align: left;
-}
-.BodyText{
-  max-width: 50%;
-  font-size: 20px;
-	padding: 20px;
-  text-align: left;
-}
-.habitatText {
-  max-width: 100%;
-  font-size: 20px;
-	padding: 20px;
-  text-align: left;
-}
-#habitat{
-  text-align: left;
-}
-
-#wildlifeText{
-  text-align: left;
-}
-.image {
-	flex-basis: 40%;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
 }
 #gibbon {
   float:right;
@@ -164,6 +128,44 @@ img {
 .imageRow {
   display: flex;
 }
+.habitatText {
+  max-width: 100%;
+  font-size: 20px;
+	padding: 20px;
+  text-align: left;
+}
+#habitat{
+  text-align: left;
+}
+
+#wildlifeText{
+  text-align: left;
+}
+
+img {
+	max-width: 100%;
+  display: block;
+  margin-left: auto;
+}
+
+.mainText {
+	font-size: 20px;
+	padding-left: 20px;
+  text-align: left;
+}
+.BodyText{
+  max-width: 50%;
+  font-size: 20px;
+	padding: 20px;
+  text-align: left;
+}
+.image {
+	flex-basis: 40%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 #aboutus {
   margin-bottom: 20px;
 }
@@ -225,7 +227,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
       background-image: url("../Images/Banner/Trees.jpg");
     }
     #wildlife {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/rhino.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/rhino.jpg"); /*styled by Kira*/
     }
     #RoadTrees {
       background-image: url("../Images/Banner/AerialForest.jpg");
@@ -235,7 +237,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
       background-image: url("../Images/Banner/bannerUP.jpg")
     }
     #about {
-      background-image: url("../Images/Banner/team.jpg");
+      background-image: url("../Images/Banner/team.jpg"); /*styled by Kira*/
     }
 
     /* This adds and positions the text to the image - it add's it to the center of the image (text-align: center), and positioned correctly in the image (position: absolute, top: 50% , left: 50% and transform: translate (-50%, -50%) and it set the font colour */
