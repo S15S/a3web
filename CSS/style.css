@@ -164,6 +164,9 @@ img {
 .imageRow {
   display: flex;
 }
+#aboutus {
+  margin-bottom: 20px;
+}
 /*This is the css for the page footer sets the background color the same as the 
 nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 .pgfooter {
