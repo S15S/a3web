@@ -89,6 +89,45 @@ p {
 
 /* End of Steph's Forestry Stuff */
 
+ /*beginning of KS CSS*/
+
+ #UrbanPlanning {
+  line-height: 30px;
+  font-size:20px;
+  text-align: center;
+
+}
+
+
+.planningLeft { 
+
+  background-color: #D1E8E2;
+  padding:20px;
+ 
+}
+
+
+.PlanningMapOne{
+width:45%;
+float:left;
+background-color: #116466;
+color:cornsilk;
+
+}
+
+.PlanningMapTwo{
+width: 45%;
+float:right;
+background-color: #116466;
+color:cornsilk;
+}
+
+/*Ending of KS css*/
+
+
+
+
+
 .bioImg-with-text{
   vertical-align: top;
   text-align: left;
