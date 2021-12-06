@@ -295,7 +295,7 @@ Starting at 720px or screen size less than that, forces each biogrpahy 'column' 
   margin-bottom: 10px;
 }
 /*adjust some font properties from the defaults set above*/
-.wildlifeContainer h4{
+.caption h4{
   font-weight: 200;
 }
 #wildlifetext {
