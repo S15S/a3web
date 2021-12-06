@@ -73,9 +73,14 @@ img {
   margin:40px;
   padding: 10px;
 }
+#meet {
+  width: 50%;
+  margin:auto;
+}
 .blurbs h1 {
   color: #2c3531;
   text-shadow: none;
+  font-size: 40px;
 }
 .blurbs h2 {
   color:#165844;
@@ -376,7 +381,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
         margin-top:20px;
     }
     #home {
-      background-image: url("../Images/Banner/Trees.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/Banner/Trees.jpg");
     }
     #wildlife {
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/rhino.jpg"); /*styled by Kira*/
@@ -401,7 +406,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
         transform: translate(-50%, -50%);
         color: white;
         text-shadow: 2px 2px #2C3531;
-        font-size: 18pt;
+        font-size: 30pt;
         font-family: Tahoma, sans-serif;
     }
 /* end of the Banner CSS */ 
