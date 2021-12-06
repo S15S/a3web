@@ -2,6 +2,7 @@
 /*Last Update: 11/24/2021 by Carol */
 /*The colour palette for the site can be found and changed here: https://coolors.co/6c4423-2c3531-165844-007a56-3b8268-758a79-d9b08c-d1e8e2-2e6f72-116466 */
 
+/* Main template css used on multiple pages - originally written by Steph */
 h1 {
     color: white;
     font-family: Tahoma, sans-serif;
@@ -9,7 +10,6 @@ h1 {
     text-shadow: 2px 2px #2C3531;
     text-align: center;
 }
-/* Main body css used on multiple pages - originally written by Steph */
 h2 {
 	text-align: center;
 }
@@ -19,7 +19,7 @@ h3 {
 }
 
 p {
-	text-align: left;
+	text-align: center;
 }
 
 .contentContainer {
@@ -29,7 +29,7 @@ p {
   margin-top : 20px;
   font-family: garamond, serif;
 }
-/* This is the css for the about us page */
+
 .headlineContainer {
   text-align: center;
   font-family: Tahoma, sans-serif; 
@@ -39,6 +39,29 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+img {
+	max-width: 100%;
+  display: block;
+  margin-left: auto;
+}
+
+.mainText {
+	font-size: 20px;
+	padding-left: 20px;
+  text-align: left;
+}
+.BodyText{
+  max-width: 50%;
+  font-size: 20px;
+	padding: 20px;
+  text-align: left;
+}
+.image {
+	flex-basis: 40%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Steph's Forestry stuff */
@@ -88,10 +111,8 @@ p {
 }
 
 /* End of Steph's Forestry Stuff */
-
- /*beginning of KS CSS*/
-
- #UrbanPlanning {
+/*beginning of KS CSS*/
+#UrbanPlanning {
   line-height: 30px;
   font-size:20px;
   text-align: center;
@@ -127,18 +148,10 @@ color:cornsilk;
 
 
 
+/* This is the css for the About Us page - written by Kira*/
 
-.bioImg-with-text{
-  vertical-align: top;
-  text-align: left;
-  width:337px;
-  display: inline-block;
-  padding:10px;
-}
-.bioImg-with-text img {
-  margin-left: auto;
-  margin-right:auto;
-}
+/*This styles the div for the two members' bios in the first row on the page. 
+It forces the captions to stay within the bounds of the images (400px)*/
 .bioImg-with-text2{
   vertical-align: top;
   text-align: left;
@@ -146,63 +159,26 @@ color:cornsilk;
   display: inline-block;
   padding:10px;
 }
+/*This styles the div for the three members' bios in the second row on the page. 
+It forces the captions to stay within the bounds of the images (337px)*/
+.bioImg-with-text{
+  vertical-align: top;
+  text-align: left;
+  width:337px;
+  display: inline-block;
+  padding:10px;
+}
+/*.bioImg-with-text img {
+  margin-left: auto;
+  margin-right:auto;
+}*/
+
+/*This displays the text as a block and sets the width to 100% of its allowed pixels as was set above*/
 .caption {
   display: block;
   width:100%;
 }
-@media screen and (max-width: 720px) {
-  .bioImg-with-text {
-    width: 100%;
-  }
-}
-/* Kira's Wildlife Conservation CSS*/
-.wildlifeText{
-	display: flex;
-	justify-content: left;
-  align-items: center;
-  padding: 20px;
-  background-color: #D1E8E2;
-}
-.habitatContainer {
-  display: flex;
-	justify-content: left;
-  align-items: center;
-  padding: 20px;
-  background-color: #82a796;
-  margin-bottom: 10px;
-}
-#gibbon {
-  float:right;
-  max-width: 100%;
-  height: auto;
-}
-#pushpins {
-  max-width: 100%;
-  height: auto;
-}
-#landcover {
-  max-width: 100%;
-  height: auto;
-}
-.imageCol {
-  flex: 50%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.imageRow {
-  display: flex;
-}
-.bioimgCol {
-  flex:20%;
-  float: left;
-  margin:5px;
-}
-.bioCol{
-  flex:80%;
-  float:left;
-  margin:5px;
-  text-align: left;
-}
+/*styles the team member names and roles with various font properties*/
 .memberName {
   text-align: center;
   font-family: Tahoma;
@@ -214,45 +190,56 @@ color:cornsilk;
   font-style: italic;
   font-weight: 100;
 }
+/*Media query and responsive design for the content on the about us page.
+Starting at 720px or screen size less than that, forces each biogrpahy 'column' to be shown on its own row 
+(take up 100%) for better mobile viewing*/
 
-.habitatText {
-  max-width: 100%;
-  font-size: 20px;
-	padding: 20px;
+@media screen and (max-width: 720px) {
+  .bioImg-with-text {
+    width: 100%;
+  }
+}
+/*End of About Us CSS*/
+
+
+/*Wildlife Conservation page CSS - written by Kira*/
+
+/*Style the container holding the wildlife content using flex for a responsive dual layout of my text and image*/
+.wildlifeContainer{
+	display: flex;
+	justify-content: left;
+  align-items: center;
+  padding: 20px;
+  background-color: #D1E8E2;
+}
+/*adjust some font properties from the defaults set above*/
+.wildlifeContainer h4{
+  font-weight: 200;
+}
+#wildlifetext {
   text-align: left;
 }
+/*create a row div to hold my two images side by side, display as flex*/
+.imageRow {
+  display: flex;
+}
+/*set each image to take up 50% of the div side by side*/
+.imageCol {
+  flex: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/*adjust the last section of content so that the text takes up 100% of the container, rather than 50% since there are no images next to it*/
+#habitatText {
+  max-width: 100%;
+}
+/*override the default h2 setting*/
 #habitat{
   text-align: left;
 }
+/*End of Kira's wildlife section*/
 
-#wildlifeText{
-  text-align: left;
-}
-
-img {
-	max-width: 100%;
-  display: block;
-  margin-left: auto;
-}
-
-.mainText {
-	font-size: 20px;
-	padding-left: 20px;
-  text-align: left;
-}
-.BodyText{
-  max-width: 50%;
-  font-size: 20px;
-	padding: 20px;
-  text-align: left;
-}
-.image {
-	flex-basis: 40%;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
+/*Footer section by Kathleen*/
 /*This is the css for the page footer sets the background color the same as the 
 nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 .pgfooter {
