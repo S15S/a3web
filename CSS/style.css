@@ -344,9 +344,6 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .header .navbar {
   position: absolute;
