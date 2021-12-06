@@ -138,6 +138,7 @@ img {
 .PlanningMapOne{
 flex:50%;
 color:cornsilk;
+justify-content: center;
 }
 
 /*Ending of KS css*/
