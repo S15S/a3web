@@ -127,21 +127,19 @@ img {
  
 }
 
+.maps {
+  display: flex;
+  margin:10px;
+  background-color: #116466;
+ 
+}
+
 
 .PlanningMapOne{
-width:45%;
-float:left;
-background-color: #116466;
-color:cornsilk;
-
-}
-
-.PlanningMapTwo{
-width: 45%;
-float:right;
-background-color: #116466;
+flex:50%;
 color:cornsilk;
 }
+
 
 /*Ending of KS css*/
 
