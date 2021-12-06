@@ -325,11 +325,11 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 
 /* Navigation Bar CSS - CB Nov 24 */
 
-li {
+.header li {
   list-style: none;
 }
 
-a {
+.header a {
   text-decoration: none;
 }
 
@@ -357,7 +357,7 @@ a {
   /* these settings are ready in here so that we can edit them later once we've decided on fonts */
   text-decoration: none;
   font-family: "Tahoma", sans-serif; 
-  /*  font-size: 18px; */
+  font-size: 16px;
   }
 
 .hamburger {
