@@ -5,9 +5,10 @@
 /* Main template css used on multiple pages - originally written by Steph */
 html, body{
   margin:0;
+  padding-top: 15px;
 }
 h1 {
-    color: white;
+    color: rgb(241, 238, 238);
     font-family: Tahoma, sans-serif;
     font-size: 35pt;
     text-shadow: 2px 2px #2C3531;
@@ -67,6 +68,24 @@ img {
   object-fit: contain;
 }
 /*Home page banner stuff*/
+.blurbs {
+  text-align: center;
+  margin:40px;
+  padding: 10px;
+}
+#meet {
+  width: 50%;
+  margin:auto;
+}
+.blurbs h1 {
+  color: #2c3531;
+  text-shadow: none;
+  font-size: 40px;
+}
+.blurbs h2 {
+  color:#165844;
+  font-family: Tahoma;
+}
 .homebanners {
   position: relative;
   width:100%;
@@ -104,6 +123,16 @@ img {
 .bannertext:hover {
   text-decoration:underline;
 }
+.map {
+  width:99%; 
+  height:50%;
+  border:0;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 /* Steph's Forestry stuff */
 /* the column css was found on the w3 schools website */
 .column1 {
@@ -126,9 +155,9 @@ img {
   clear: both;
 }
 .forestcolumn { /*the is the column text */
-	display: center-left;
-    font-family: garamond, serif;
-	margin-left: 20px
+	text-align: left;
+  font-family: garamond, serif;
+	margin-left: 15px
 }
 .forestrycontainer { /*the is the area where the block of text will go */
 	display: flex;
@@ -138,8 +167,8 @@ img {
 	margin-bottom: 10px
 }
 .foresttext { /*the is the forestry container text */
-	display: center-left;
-    font-family: garamond, serif;
+	text-align: left;
+  font-family: garamond, serif;
 	margin-left: 10px
 }
 .forestimage {
@@ -148,6 +177,10 @@ img {
 	margin: auto;
 	display: flex;
 	justify-content: center;
+}
+
+.forestpoints {
+  margin-left: 30%;
 }
 
 /* End of Steph's Forestry Stuff */
@@ -262,7 +295,7 @@ Starting at 720px or screen size less than that, forces each biogrpahy 'column' 
   margin-bottom: 10px;
 }
 /*adjust some font properties from the defaults set above*/
-.wildlifeContainer h4{
+.caption h4{
   font-weight: 200;
 }
 #wildlifetext {
@@ -297,7 +330,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
   min-height:200px;
   width:100%;
   font-family: garamond;
-  color: #D9B08C;
+  color: #EFE6DC;
   font-size:16pt; 
   display: flex;
   justify-content: space-around;
@@ -345,10 +378,10 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
         background-size: cover;
         position: relative;
         width:100%;
-        margin:0px;
+        margin-top:20px;
     }
     #home {
-      background-image: url("../Images/Banner/Trees.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/Banner/Trees.jpg");
     }
     #wildlife {
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/rhino.jpg"); /*styled by Kira*/
@@ -371,9 +404,9 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;
+        color: rgb(221, 214, 214);
         text-shadow: 2px 2px #2C3531;
-        font-size: 18pt;
+        font-size: 30pt;
         font-family: Tahoma, sans-serif;
     }
 /* end of the Banner CSS */ 
@@ -395,7 +428,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
   box-sizing: border-box;
 }
 .header .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   border-bottom: 1px solid;
@@ -447,7 +480,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 .nav-link{
   font-size: 1.6rem;
   font-weight: 400;
-  color: #D9B08C;
+  color: #EFE6DC;
 }
 
 .nav-link:hover{
@@ -461,10 +494,10 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
-  color: #D9B08C;
+  color: #EFE6DC;
 }
 
-@media only screen and (max-width: 1325px) {
+@media only screen and (max-width: 1500px) {
   .nav-menu {
       position: absolute;
       left: -100%;
