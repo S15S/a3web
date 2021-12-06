@@ -379,7 +379,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 /* end of the Banner CSS */ 
 
 
-/* Navigation Bar CSS - CB Nov 24 */
+/* Navigation Bar CSS - CB Dec 05 */
 
 .header li {
   list-style: none;
@@ -452,6 +452,10 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 
 .nav-link:hover{
   color: #faf2eb;
+}
+
+.active{
+  color: #D1E8E2;
 }
 
 .nav-logo {
