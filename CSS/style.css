@@ -414,7 +414,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
   color: #D9B08C;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1325px) {
   .nav-menu {
       position: absolute;
       left: -100%;
