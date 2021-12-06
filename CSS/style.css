@@ -242,16 +242,18 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 .pgfooter {
   background-color: #2C3531;
   margin-bottom: 0px;
-  height:200px;
+  min-height:200px;
   width:100%;
   font-family: garamond;
   color: #D9B08C;
   font-size:16pt; 
+  display: flex;
+  justify-content: space-around;
 }
 /*this is the main text blurb*/
 
 .FooterTxt {
-  float:left;
+ /* float:left;*/
   width:40%;
   margin-top:80px;
   margin-left:80px;   
@@ -259,7 +261,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 
 /*These are the two lists of more information*/
 .ListFooter2 {
- float:right;
+ /*float:right;*/
  margin-right: 100px;
  list-style-type: none;
 
@@ -267,7 +269,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 }
 
 .ListFooter1 {
-  float:right; 
+  /*float:right; */
   margin-right: 50px;
   list-style-type: none;
 
