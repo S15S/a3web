@@ -324,12 +324,19 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 
 
 /* Navigation Bar CSS - CB Nov 24 */
+
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+.header * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header{
