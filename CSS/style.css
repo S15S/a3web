@@ -140,8 +140,8 @@ img {
   clear: both;
 }
 .forestcolumn { /*the is the column text */
-	display: center-left;
-    font-family: garamond, serif;
+	text-align: left;
+  font-family: garamond, serif;
 	margin-left: 15px
 }
 .forestrycontainer { /*the is the area where the block of text will go */
@@ -152,8 +152,8 @@ img {
 	margin-bottom: 10px
 }
 .foresttext { /*the is the forestry container text */
-	display: center-left;
-    font-family: garamond, serif;
+	text-align: left;
+  font-family: garamond, serif;
 	margin-left: 10px
 }
 .forestimage {
