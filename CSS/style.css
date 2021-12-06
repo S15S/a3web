@@ -130,7 +130,6 @@ img {
 .maps {
   display: flex;
   margin:auto;
-  background-color: #116466;
   margin-bottom: 50px;
 }
 
@@ -139,7 +138,7 @@ img {
 flex:50%;
 color:cornsilk;
 margin-left:5px;
-
+background-color: #116466;
 }
 
 .caption {
