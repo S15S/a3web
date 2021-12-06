@@ -67,6 +67,19 @@ img {
   object-fit: contain;
 }
 /*Home page banner stuff*/
+.blurbs {
+  text-align: center;
+  margin:40px;
+  padding: 10px;
+}
+.blurbs h1 {
+  color: #2c3531;
+  text-shadow: none;
+}
+.blurbs h2 {
+  color:#165844;
+  font-family: Tahoma;
+}
 .homebanners {
   position: relative;
   width:100%;
@@ -399,7 +412,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
   box-sizing: border-box;
 }
 .header .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   border-bottom: 1px solid;
