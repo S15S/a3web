@@ -328,6 +328,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
   background-color: #2C3531;
   margin-bottom: 0px;
   min-height:200px;
+  min-width: fit-content;
   /* width:100%; */
   font-family: garamond;
   color: #EFE6DC;
