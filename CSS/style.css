@@ -344,6 +344,15 @@ a {
   padding: 1rem 1.5rem;
 }
 
+.navbar li a {
+  /* block display makes the whole area a clickable link*/
+  text-align: center;
+  /* these settings are ready in here so that we can edit them later once we've decided on fonts */
+  text-decoration: none;
+  font-family: "Tahoma", sans-serif; 
+  /*  font-size: 18px; */
+  }
+
 .hamburger {
   display: none;
 }
