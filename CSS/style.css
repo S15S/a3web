@@ -3,6 +3,9 @@
 /*The colour palette for the site can be found and changed here: https://coolors.co/6c4423-2c3531-165844-007a56-3b8268-758a79-d9b08c-d1e8e2-2e6f72-116466 */
 
 /* Main template css used on multiple pages - originally written by Steph */
+html, body{
+  margin:0;
+}
 h1 {
     color: white;
     font-family: Tahoma, sans-serif;
@@ -341,7 +344,9 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  width:100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .header .navbar {
   position: absolute;
