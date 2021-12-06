@@ -116,12 +116,10 @@ img {
 /* End of Steph's Forestry Stuff */
 /*beginning of KS CSS*/
 #UrbanPlanning {
-  line-height: 30px;
+  line-height: 25px;
   font-size:20px;
-  text-align: center;
-
+  text-align: left;
 }
-
 
 .planningLeft { 
 
@@ -132,17 +130,32 @@ img {
 
 .maps {
   display: flex;
-  margin:10px;
+  margin:auto;
   background-color: #116466;
- 
+  margin-bottom: 50px;
 }
 
 
 .PlanningMapOne{
 flex:50%;
 color:cornsilk;
-justify-content: center;
+margin-left:5px;
+
 }
+
+.caption {
+  font-size: 20px;
+}
+
+.each{
+  width:520px;
+  height:350px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
 
 /*Ending of KS css*/
 
