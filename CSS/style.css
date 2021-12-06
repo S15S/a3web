@@ -2,6 +2,7 @@
 /*Last Update: 11/24/2021 by Carol */
 /*The colour palette for the site can be found and changed here: https://coolors.co/6c4423-2c3531-165844-007a56-3b8268-758a79-d9b08c-d1e8e2-2e6f72-116466 */
 
+/* Main template css used on multiple pages - originally written by Steph */
 h1 {
     color: white;
     font-family: Tahoma, sans-serif;
@@ -9,7 +10,6 @@ h1 {
     text-shadow: 2px 2px #2C3531;
     text-align: center;
 }
-/* Main body css used on multiple pages - originally written by Steph */
 h2 {
 	text-align: center;
 }
@@ -19,7 +19,7 @@ h3 {
 }
 
 p {
-	text-align: left;
+	text-align: center;
 }
 
 .contentContainer {
@@ -29,7 +29,7 @@ p {
   margin-top : 20px;
   font-family: garamond, serif;
 }
-/* This is the css for the about us page */
+
 .headlineContainer {
   text-align: center;
   font-family: Tahoma, sans-serif; 
@@ -39,6 +39,29 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+img {
+	max-width: 100%;
+  display: block;
+  margin-left: auto;
+}
+
+.mainText {
+	font-size: 20px;
+	padding-left: 20px;
+  text-align: left;
+}
+.BodyText{
+  max-width: 50%;
+  font-size: 20px;
+	padding: 20px;
+  text-align: left;
+}
+.image {
+	flex-basis: 40%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Steph's Forestry stuff */
@@ -88,121 +111,132 @@ p {
 }
 
 /* End of Steph's Forestry Stuff */
+/*beginning of KS CSS*/
+#UrbanPlanning {
+  line-height: 30px;
+  font-size:20px;
+  text-align: center;
 
+}
+
+
+.planningLeft { 
+
+  background-color: #D1E8E2;
+  padding:20px;
+ 
+}
+
+.maps {
+  display: flex;
+  margin:10px;
+  background-color: #116466;
+ 
+}
+
+
+.PlanningMapOne{
+flex:50%;
+color:cornsilk;
+}
+
+/*Ending of KS css*/
+
+
+/* This is the css for the About Us page - written by Kira*/
+
+/*This styles the div for the two members' bios in the first row on the page. 
+It forces the captions to stay within the bounds of the images (400px)*/
+.bioImg-with-text2{
+  vertical-align: top;
+  text-align: left;
+  width:400px;
+  display: inline-block;
+  padding:10px;
+}
+/*This styles the div for the three members' bios in the second row on the page. 
+It forces the captions to stay within the bounds of the images (337px)*/
 .bioImg-with-text{
   vertical-align: top;
   text-align: left;
-  text-align-last: center;
   width:337px;
   display: inline-block;
   padding:10px;
 }
-.bioImg-with-text img {
+/*.bioImg-with-text img {
   margin-left: auto;
   margin-right:auto;
-}
+}*/
+
+/*This displays the text as a block and sets the width to 100% of its allowed pixels as was set above*/
 .caption {
   display: block;
   width:100%;
 }
+/*styles the team member names and roles with various font properties*/
+.memberName {
+  text-align: center;
+  font-family: Tahoma;
+  font-weight: 500;
+}
+.role {
+  text-align: center;
+  font-family: Tahoma;
+  font-style: italic;
+  font-weight: 100;
+}
+/*Media query and responsive design for the content on the about us page.
+Starting at 720px or screen size less than that, forces each biogrpahy 'column' to be shown on its own row 
+(take up 100%) for better mobile viewing*/
+
 @media screen and (max-width: 720px) {
   .bioImg-with-text {
     width: 100%;
   }
 }
-/* Kira's Wildlife Conservation CSS*/
-.wildlifeText{
+/*End of About Us CSS*/
+
+
+/*Wildlife Conservation page CSS - written by Kira*/
+
+/*Style the container holding the wildlife content using flex for a responsive dual layout of my text and image*/
+/*Used W3Schools framework: https://www.w3schools.com/css/css3_flexbox.asp*/
+.wildlifeContainer{
 	display: flex;
 	justify-content: left;
   align-items: center;
   padding: 20px;
   background-color: #D1E8E2;
-}
-.habitatContainer {
-  display: flex;
-	justify-content: left;
-  align-items: center;
-  padding: 20px;
-  background-color: #82a796;
   margin-bottom: 10px;
 }
-#gibbon {
-  float:right;
-  max-width: 100%;
-  height: auto;
+/*adjust some font properties from the defaults set above*/
+.wildlifeContainer h4{
+  font-weight: 200;
 }
-#pushpins {
-  max-width: 100%;
-  height: auto;
+#wildlifetext {
+  text-align: left;
 }
-#landcover {
-  max-width: 100%;
-  height: auto;
+/*create a row div to hold my two images side by side, display as flex*/
+.imageRow {
+  display: flex;
 }
+/*set each image to take up 50% of the div side by side*/
 .imageCol {
   flex: 50%;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.imageRow {
-  display: flex;
-}
-/*.teamRow{
-  display: flex;
-}*/
-.bioimgCol {
-  flex:20%;
-  float: left;
-  margin:5px;
-}
-.bioCol{
-  flex:80%;
-  float:left;
-  margin:5px;
-  text-align: left;
-}
-.memberName {
-  text-align: left;
-}
-
-.habitatText {
+/*adjust the last section of content so that the text takes up 100% of the container, rather than 50% since there are no images next to it*/
+#habitatText {
   max-width: 100%;
-  font-size: 20px;
-	padding: 20px;
-  text-align: left;
 }
+/*override the default h2 setting*/
 #habitat{
   text-align: left;
 }
+/*End of Kira's wildlife section*/
 
-#wildlifeText{
-  text-align: left;
-}
-
-img {
-	max-width: 100%;
-  display: block;
-  margin-left: auto;
-}
-
-.mainText {
-	font-size: 20px;
-	padding-left: 20px;
-  text-align: left;
-}
-.BodyText{
-  max-width: 50%;
-  font-size: 20px;
-	padding: 20px;
-  text-align: left;
-}
-.image {
-	flex-basis: 40%;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
+/*Footer section by Kathleen*/
 /*This is the css for the page footer sets the background color the same as the 
 nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 .pgfooter {
@@ -290,59 +324,126 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
     }
 /* end of the Banner CSS */ 
 
-/* Navigation Bar CSS - CB Nov 24 */
-/* colours are temporary placeholders */
-ul.NavigationBar {
-    /* this will remove the bullet points since we don't need them */
-      list-style-type: none;
-    /* margin and padding at zero removes browser defaults */
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      overflow: hidden;
-      background-color: #2C3531;
-    }
-    ul.NavigationBar li {
-    /* this will make labels start at left of screen */
-      float: left;
-    /* added a link block outline for extra contrast */
-      outline: #D9B08C solid 1px;
-    /* divide 100% eidth evenly between eight links */
-      width: 12.5%;
-    }
-    ul.NavigationBar li a {
-    /* block display makes the whole area a clickable link*/
-      display: block;
-      color: #faf2eb;
-      text-align: center;
-      padding: 14px 16px;
-    /* these settings are ready in here so that we can edit them later once we've decided on fonts */
-      text-decoration: none;
-      font-family: "Tahoma", sans-serif; 
-    /*  font-size: 18px; */
-    }
-    /* I wanted a nice colour for when you hover on the link, re:colour palette above */
-    ul.NavigationBar li a:hover:not(.active) {
-      background-color: #758A79;
-    }
-    ul.NavigationBar li a.active {
-      background-color: #3B8268;
-    }
-    /* this will add settings for if viewing in a small window or on a mobile device*/
-    @media screen and (max-width: 1450px) {
-      ul.NavigationBar li {
-        float: none;
-        width: 100%;}
 
-    /* this will add settings for if viewing in a non fullscreen window */
-    @media screen and (min-width: 1451px) {
-        ul.NavigationBar li {
-          float: left;
-        /* divide 100% width evenly between eight links */
-          width: 12.5%;}
-    }
-/* end of Navigation Bar CSS*/
+/* Navigation Bar CSS - CB Nov 24 */
+
+.header li {
+  list-style: none;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  border-bottom: 1px solid;
+  background-color: #2C3531;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.navbar li a {
+  /* block display makes the whole area a clickable link*/
+  text-align: center;
+  /* these settings are ready in here so that we can edit them later once we've decided on fonts */
+  text-decoration: none;
+  font-family: "Tahoma", sans-serif; 
+  font-size: 16px;
   }
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #D9B08C;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #D9B08C;
+}
+
+.nav-link:hover{
+  color: #faf2eb;
+}
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #D9B08C;
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #2c3531;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+      left: 0;
+  }
+
+  .nav-item {
+      margin: 2.5rem 0;
+  }
+
+  .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+      -webkit-transform: translateY(8px) rotate(45deg);
+      transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+      -webkit-transform: translateY(-8px) rotate(-45deg);
+      transform: translateY(-8px) rotate(-45deg);
+  }
+}
 
 /* Services Page - SS and BC - Dec 5 */ 
     
