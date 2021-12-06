@@ -292,6 +292,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+        width:100%;
     }
     #home {
       background-image: url("../Images/Banner/Trees.jpg");
