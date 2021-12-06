@@ -203,12 +203,14 @@ Starting at 720px or screen size less than that, forces each biogrpahy 'column' 
 /*Wildlife Conservation page CSS - written by Kira*/
 
 /*Style the container holding the wildlife content using flex for a responsive dual layout of my text and image*/
+/*Used W3Schools framework: https://www.w3schools.com/css/css3_flexbox.asp*/
 .wildlifeContainer{
 	display: flex;
 	justify-content: left;
   align-items: center;
   padding: 20px;
   background-color: #D1E8E2;
+  margin-bottom: 10px;
 }
 /*adjust some font properties from the defaults set above*/
 .wildlifeContainer h4{
