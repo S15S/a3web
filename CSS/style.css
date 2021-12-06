@@ -357,7 +357,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
+  padding: 10px;
 }
 
 .navbar li a {
