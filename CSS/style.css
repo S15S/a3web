@@ -5,6 +5,7 @@
 /* Main template css used on multiple pages - originally written by Steph */
 html, body{
   margin:0;
+  padding-top: 15px;
 }
 h1 {
     color: white;
@@ -358,7 +359,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
         background-size: cover;
         position: relative;
         width:100%;
-        margin:0px;
+        margin-top:20px;
     }
     #home {
       background-image: url("../Images/Banner/Trees.jpg");
