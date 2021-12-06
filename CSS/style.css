@@ -106,6 +106,10 @@ p {
  
 }
 
+.maps {
+  display: flex;
+}
+
 
 .PlanningMapOne{
 width:45%;
