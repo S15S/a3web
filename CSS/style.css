@@ -118,6 +118,16 @@ img {
 .bannertext:hover {
   text-decoration:underline;
 }
+.map {
+  width:99%; 
+  height:50%;
+  border:0;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 /* Steph's Forestry stuff */
 /* the column css was found on the w3 schools website */
 .column1 {
