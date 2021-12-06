@@ -3,6 +3,9 @@
 /*The colour palette for the site can be found and changed here: https://coolors.co/6c4423-2c3531-165844-007a56-3b8268-758a79-d9b08c-d1e8e2-2e6f72-116466 */
 
 /* Main template css used on multiple pages - originally written by Steph */
+html, body{
+  margin:0;
+}
 h1 {
     color: white;
     font-family: Tahoma, sans-serif;
@@ -243,16 +246,18 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 .pgfooter {
   background-color: #2C3531;
   margin-bottom: 0px;
-  height:200px;
+  min-height:200px;
   width:100%;
   font-family: garamond;
   color: #D9B08C;
   font-size:16pt; 
+  display: flex;
+  justify-content: space-around;
 }
 /*this is the main text blurb*/
 
 .FooterTxt {
-  float:left;
+ /* float:left;*/
   width:40%;
   margin-top:80px;
   margin-left:80px;   
@@ -260,7 +265,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 
 /*These are the two lists of more information*/
 .ListFooter2 {
- float:right;
+ /*float:right;*/
  margin-right: 100px;
  list-style-type: none;
 
@@ -268,7 +273,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 }
 
 .ListFooter1 {
-  float:right; 
+  /*float:right; */
   margin-right: 50px;
   list-style-type: none;
 
@@ -291,6 +296,8 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+        width:100%;
+        margin:0px;
     }
     #home {
       background-image: url("../Images/Banner/Trees.jpg");
@@ -325,25 +332,48 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 
 
 /* Navigation Bar CSS - CB Nov 24 */
-li {
+
+.header li {
   list-style: none;
 }
 
-a {
+.header a {
   text-decoration: none;
 }
 
-.header{
+.header * {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.header .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
   border-bottom: 1px solid;
   background-color: #2C3531;
+  z-index: 1;
+  width:100%;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 10px;
 }
+
+.navbar li a {
+  /* block display makes the whole area a clickable link*/
+  text-align: center;
+  /* these settings are ready in here so that we can edit them later once we've decided on fonts */
+  text-decoration: none;
+  font-family: "Tahoma", sans-serif; 
+  font-size: 16px;
+  }
 
 .hamburger {
   display: none;
@@ -385,11 +415,11 @@ a {
   color: #D9B08C;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1325px) {
   .nav-menu {
-      position: fixed;
+      position: absolute;
       left: -100%;
-      top: 5rem;
+      top: 3.1rem;
       flex-direction: column;
       background-color: #2c3531;
       width: 100%;
@@ -405,7 +435,7 @@ a {
   }
 
   .nav-item {
-      margin: 2.5rem 0;
+      margin: 1.6rem 0;
   }
 
   .hamburger {
