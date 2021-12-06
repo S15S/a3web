@@ -349,3 +349,9 @@ ul.NavigationBar {
     }
 /* end of Navigation Bar CSS*/
   }
+
+/* Services Page - SS and BC - Dec 5 */ 
+    
+ul.a {
+      list-style-type: circle;
+    }
