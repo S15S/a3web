@@ -395,7 +395,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
   box-sizing: border-box;
 }
 .header .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   border-bottom: 1px solid;
