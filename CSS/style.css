@@ -46,8 +46,9 @@ p {
   margin: 20px auto 20px;
 }
 
-.greenPanel {
+div.greenPanel {
   background-color: #D1E8E2;
+  margin-bottom: 0px;
   padding: 10px 0px;
   font-size: 20px;
 }
@@ -699,8 +700,8 @@ ul.a {
   padding: 20px 40px;
   border-radius: 15px;
   width: 20%
-    
 }
+
 div.service-buttons {
   margin: 0px 0px 20px 0px;
   padding-bottom: 15px;
@@ -708,6 +709,8 @@ div.service-buttons {
 }
 button.serviceButton {
   width: 200px;
+  padding: 20px;
+  margin: 2px 10px;
 }
 div.buttons {
     margin: 20px auto 20px;
