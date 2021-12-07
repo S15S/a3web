@@ -563,25 +563,26 @@ body, html {
   z-index: 1;
   width:100%;
 }
-
+/* additional styling for navbar and content */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
-
+/* adds in text and font styling to navbar - we removed settings back to default at beginning of section CB */
 .navbar li a {
   text-align: center;
   text-decoration: none;
   font-family: "Tahoma", sans-serif; 
   font-size: 16px;
   }
-
+/* ensures that JS hamburger button will not show on larger screens CB */
 .hamburger {
   display: none;
 }
-
+/* creates bar class */
+/* sets styling for hamburger bars: entire area is clickable (display: block), transition time for when object is moving after click, bar color will match with link elements CB */
 .bar {
   display: block;
   width: 25px;
@@ -589,39 +590,39 @@ body, html {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #D9B08C;
+  background-color: #EFE6DC;
 }
-
+/* creates styling for nav-menu CB */
 .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+/* adds space between links CB */
 .nav-item {
   margin-left: 5rem;
 }
-
+/* creates styling for nav-link (links to pages) CB */
 .nav-link{
   font-size: 1.6rem;
   font-weight: 400;
   color: #EFE6DC;
 }
-
+/* will change the color of the link text when hovered over CB */
 .nav-link:hover{
   color: #faf2eb;
 }
-
+/* will change the color of the link text when class for a specific link is set to 'active' CB */
 .active{
   color: #D1E8E2;
 }
-
+/* creates styling for nav-logo (company name) CB */
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
   color: #EFE6DC;
 }
-
+/* these settings set up the default styling for smaller screens - set to 1500 px to account for number of page links included in navbar CB */
 @media only screen and (max-width: 1500px) {
   .nav-menu {
       position: absolute;
@@ -636,35 +637,32 @@ body, html {
       box-shadow:
           0 10px 27px rgba(0, 0, 0, 0.05);
   }
-
+/* navbar menu will start at the far left of the screen CB */
   .nav-menu.active {
       left: 0;
   }
-
+/* set margins for links so that they appear correctly on the screen within the nav-menu class CB */
   .nav-item {
       margin: 1.6rem 0;
   }
-
+/* displays the previously undisplayed hamburger button on a smaller screen, changes user cursor to show that area is clickable CB */
   .hamburger {
       display: block;
       cursor: pointer;
   }
-
+/* these class definitions allow the bars to rotate when clicked and removes the middle bar from the display CB */
   .hamburger.active .bar:nth-child(2) {
       opacity: 0;
   }
-
   .hamburger.active .bar:nth-child(1) {
       -webkit-transform: translateY(8px) rotate(45deg);
       transform: translateY(8px) rotate(45deg);
   }
-
   .hamburger.active .bar:nth-child(3) {
       -webkit-transform: translateY(-8px) rotate(-45deg);
       transform: translateY(-8px) rotate(-45deg);
   }
 }
-
 /* end of Navigation Bar CSS */
 
 /* Archaeology page - CB - Dec 7 */
