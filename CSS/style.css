@@ -415,6 +415,10 @@ body, html {
 #about {
   background-image: url("../Images/Banner/team.jpg"); /*styled by Kira*/
 }
+#archaeology {
+  /* the image was way too light with text colour specified in hero-text, changed the gradient to make it look a bit nicer */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/archaebanner.jpg"); /* styled by Carol */
+}
 
 /* This adds and positions the text to the image - it add's it to the center of the image (text-align: center), and positioned correctly in the image (position: absolute, top: 50% , left: 50% and transform: translate (-50%, -50%) and it set the font colour */
 .hero-text {
@@ -564,6 +568,24 @@ body, html {
       transform: translateY(-8px) rotate(-45deg);
   }
 }
+
+/* end of Navigation Bar CSS */
+
+/* Archaeology page - CB - Dec 7 */
+
+.archaeology {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width:100%;
+  margin-top:20px;
+}
+
+
+
+/* end of archaeology CSS*/
 
 /* Services Page - SS and BC - Dec 5 */ 
     
