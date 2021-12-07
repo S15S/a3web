@@ -165,10 +165,6 @@ img {
   justify-content: space-evenly;
 }
 
-/* 
-.eachservice{
-flex:30%;
-} */
 
 .icon{
   width:250px;
@@ -177,23 +173,7 @@ flex:30%;
   display: flex;
   justify-content: center;
 }
-
-/* .servicesummary{
-  display:flex
-}
-.icon {
-  width:250px;
-  height:150px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-} */
-
-.serviceslist {
-  list-style: none;
-  flex:100;
-  font-size:20px;
-}
+/* end of home services summary banner -KS 21-12-07*/
 
 
 
@@ -286,7 +266,7 @@ flex:30%;
 
 /* End of Steph's Forestry Stuff */
 
-/*beginning of KS CSS*/
+/*beginning of urban planning page CSS by Kathleen */
 #UrbanPlanning {
   line-height: 25px;
   font-size:20px;
@@ -327,7 +307,7 @@ background-color: #116466;
 
 
 
-/*Ending of KS css*/
+/*Ending of KS css- 2021-12-07*/
 
 
 /* This is the css for the About Us page - written by Kira*/
