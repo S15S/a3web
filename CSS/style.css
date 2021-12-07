@@ -205,6 +205,7 @@ flex:30%;
   font-family: garamond, serif;
   background-color: #758A79;
   margin-bottom: 10px
+  
 }
 .column2 {
   float: left;
@@ -229,7 +230,7 @@ flex:30%;
 	align-items: center;
 	padding: 30px;
 	background-color: #2E6F72;
-	margin-bottom: 10px
+	margin: 10px
 }
 .foresttext { /*the is the forestry container text */
 	text-align: left;
