@@ -299,8 +299,7 @@ background-color: #116466;
 }
 
 .each{
-  width:520px;
-  height:350px;
+  max-width:100%;
   margin: auto;
   display: flex;
   justify-content: center;
