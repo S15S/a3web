@@ -587,11 +587,13 @@ body, html {
 }
 /* will change the color of the link text when hovered over CB */
 .nav-link:hover{
-  color: #faf2eb;
+  color: #ffffff;
+  font-style: oblique;
 }
 /* will change the color of the link text when class for a specific link is set to 'active' CB */
 .active{
   color: #D1E8E2;
+  font-weight:bold;
 }
 /* creates styling for nav-logo (company name) CB */
 .nav-logo {
