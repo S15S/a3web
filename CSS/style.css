@@ -249,7 +249,41 @@ flex:30%;
   margin-left: 30%;
 }
 
+@media screen and (max-width: 500px) {
+  .column1 {
+    width: 100%;
+  }
+}
 
+@media screen and (max-width: 500px) {
+  .column2 {
+    width: 100%;
+ }
+}
+
+@media screen and (max-width: 500px) {
+  .forestimage {
+    width: 100%;
+ }
+}
+
+@media screen and (max-width: 500px) {
+  .forestcolumn {
+    width: 100%;
+ }
+}
+
+@media screen and (max-width: 500px) {
+  .forestrycontainer {
+    width: 100%;
+ }
+}
+
+@media screen and (max-width: 500px) {
+  .foresttext {
+    width: 100%;
+ }
+}
 
 /* End of Steph's Forestry Stuff */
 
