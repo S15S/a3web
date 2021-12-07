@@ -647,13 +647,14 @@ body, html {
 /* end of archaeology CSS*/
 
 /* Services Page - SS and BC - Dec 5 */ 
-    
+/* Change the bullet type to a circle */    
 ul.a {
-      list-style-type: circle;
+      list-style-type: circle; 
     }
 
-/* columns for geography page by Becca Carmichael - resources used: W3School - Dec 6 */
-/* additional style for the container that holds all the page content (still also uses the contentContainer class) */
+
+/* Geography page by Becca Carmichael - resources used: W3School - Dec 6 */
+/* Columns for geo page additional style for the container that holds all the page content (still also uses the contentContainer class) */
 div.columnContent {
   margin: 20px auto 20px;
 }
