@@ -13,7 +13,7 @@ The overall style of this website is as follows:
 ## Website Purpose
 Our website's goal is to pull from each of our expertise to show customers how GIS can be applied to a wide range of fields. 
 We will have ~3 general information pages about what our consulting group is, who we are and what services we offer.
-It will also have 5 specifc pages that go into detail about how GIS can be applied to the fields of Archaeology, Forestry, Geography, Urban Planning and Habitat Management.
+It will also have 5 specific pages that go into detail about how GIS can be applied to the fields of Archaeology, Forestry, Geography, Urban Planning and Habitat Management.
 ## Workload Distribution Plan
 ### Template
 *Goal* | *Assigned to* | *Due by* | *Complete? (Y/N)*

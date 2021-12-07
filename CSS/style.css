@@ -271,7 +271,7 @@ It forces the captions to stay within the bounds of the images (337px)*/
   font-weight: 100;
 }
 /*Media query and responsive design for the content on the about us page.
-Starting at 720px or screen size less than that, forces each biogrpahy 'column' to be shown on its own row 
+Starting at 720px or screen size less than that, forces each biography 'column' to be shown on its own row 
 (take up 100%) for better mobile viewing*/
 
 @media screen and (max-width: 720px) {
@@ -545,3 +545,4 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 ul.a {
       list-style-type: circle;
     }
+

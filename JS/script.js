@@ -1,5 +1,4 @@
-//This will be a javascript file
-//Last Updated: 12/5/2021 by Carol
+// Last Updated: 12/5/2021 by Carol
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
