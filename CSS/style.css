@@ -211,7 +211,7 @@ flex:30%;
   float: left;
   width: 50%;
   font-family: garamond, serif;
-  background-color: #D9B08C;
+  background-color: #3B8268;
   margin-bottom: 10px
 }
 .row:after {
@@ -235,6 +235,9 @@ flex:30%;
 .foresttext { /*the is the forestry container text */
 	text-align: left;
   font-family: garamond, serif;
+  color: #D9B08C;
+  font-size: 18px;
+  font-weight: bold;
 	margin-left: 10px
 }
 .forestimage {
