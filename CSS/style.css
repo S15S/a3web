@@ -421,6 +421,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
   font-family: garamond;
 }
 /*This section makes the 3 parts of the footer act as cells in a table to make it easier to format uniformly and resize - Kira */
+/*Tutorial from w3schools adjusted to fit this content: https://www.w3schools.com/howto/howto_css_three_columns.asp*/
 .footer{
   display: table-cell;
   float:left;
