@@ -1,20 +1,22 @@
 <!DOCTYPE html>
+<!-- this page created by Carol Buckingham-->
+<!-- setting language for html is best practice CB-->
 <html lang="en">
 <head>
+    <!-- call in CSS stylesheet from github repository-->
     <link rel="stylesheet" href="CSS/style.css">
     <title>GIS Consulting</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Nov 24 CB: define character set as best practice re:HTML validator-->
     <link rel = "icon" href = "Images/pin.png" type = "image/x-icon"> <!--from www.flaticon.com for browser tab icon-->
+    <!-- Nov 24 CB: define character set as best practice re:HTML validator-->
     <meta charset= "UTF-8">
 </head>
 <body>
-<!-- this will be the info page about Archaeology and GIS-->
-<!-- Nov 24 CB - adding a navbar! I've included this above the banner-->
-    <!-- create a header for the navigation bar-->
+<!-- this will be the info page about Archaeology and GIS CB-->
+<!-- Navigation bar from template CB-->
     <header class="header">
         <div class="navbar">
-            <a class="nav-logo">SymbioGIS.</a> <!--our created company name appears here-->
+            <a class="nav-logo">SymbioGIS.</a> <!--our created company name appears here CB-->
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="index.html" class="nav-link">Home</a>
@@ -26,6 +28,7 @@
                     <a href="services.html" class="nav-link">Services</a>
                 </li>
                 <li class="nav-item">
+                    <!-- this is the active page so it will have a different text colour than the other links. it is still clickable! CB-->
                     <a href="archae.html" class="active" >Archaeology</a>
                 </li>
                 <li class="nav-item">
@@ -48,29 +51,34 @@
             </div>
         </div>
     </header>
+<!-- call the js file into page, must go after navigation bar HTML CB-->
+<script src="JS/script.js"></script>
 
-    <!-- Nov 24 BC - Inserting the "banner" - this should be after the navbar and before the rest of the page. Since we are using it as a title/ subtitle we do not need that stuff to be included-->
+    <!-- banner CSS from template CB-->
+    <!-- I changed the id to match the image i wanted to use, see CSS for details CB-->
     <div class="hero-image" id="archaeology">
         <div class="hero-text">
+            <!-- set page title and subtitle to match content CB-->
             <h1>Archaeology</h1>
             <p>Using GIS for site mapping and data analysis</p>
         </div>
     </div>
-    <!---Creates a container that will occupy 80% of the webpage where all content except the header/footer will go-->
+    <!---contentContainer and headlineContainer from template-->
     <div class="contentContainer">
-        <!---Creates a block to hold the headline of the page-->
         <div class="headlineContainer">
             <h2>Archaeology and GIS work hand in hand to allow us to view the spatial aspect of human behaviour.</h2>
         </div>
-        <!---Create a block to hold content of page in two columns with alternating views -->
-        <div class= "arch1">
-                <div class="archRowContainer">
+        <!---Create a block to hold content of page in two rows with alternating views CB-->
+        <div class= "archRowContainerA">
+                <div class="archRow">
                     <div class="image">
+                        <!-- I took this photo in Haldimand County in Southern Ontario CB-->
                         <img src="Images/field_photoCB.jpg" alt="A landscape view of a farmer's field, Ontario">
                     </div>
-                    <!---A block element to hold the text for the given panel, which will sit under the image-->
+                    <!---A block element to hold the text for the given panel, which will sit under the image CB-->
                     <div class="mainText">
                         <h3>Archaeological Assessment</h3>
+                        <!-- blurb about sensitivity/high potential mapping CB-->
                         <p1>Here at SymbioGIS, we use predictive modeling to more accurately determine a location's potential for archaeological excavation. Our team is focused on 
                             analyzing an area with respect to its cultural, historical, and agricultural relevance, and producing archaeological sensitivity maps based on these 
                             qualities in conjunction with geospatial information. We also look at the impact of any future excavation and development on cultural land use, wildlife 
@@ -78,26 +86,26 @@
                     </div>
                 </div>
         </div>
-        <div class= "arch2">
-                <!---This element will have the image after the text!! -->
-                <div class="archRowContainer">
+        <div class= "archRowContainerB">
+                <!---This element will have the image after the text!! CB-->
+                <div class="archRow">
                     <div class="mainText">
                         <h3>Site Identification</h3>
+                        <!-- blurb about imagery analysis CB-->
                         <p1>Through the use of LiDAR and satelite imagery, possible locations of previous landmarks and buildings are identified. GIS helps us to analyze the areas in which
                             sites are found to determine why and how the location was chosen and how it differs from contemporary finds. Differences in topography, hydrography, or animal 
                             populations influence the decisions made when initially choosing a site - these datasets are used within our analysis to help determine area use within a greater
                             archaeological overview study.</p1>
                     </div>
                     <div class="image">
-                        <img src="Images/aerial-archae.jpg" alt="An aerial view of a field. Source: Wikipedia">
+                        <!-- image found on wikipedia: https://en.wikipedia.org/wiki/Aerial_archaeology -->
+                        <img src="Images/aerial-archae.jpg" alt="An aerial view of cropmarks at a protohistoric site at Grezac, France. Source: Wikipedia">
                     </div>
                 </div>
         </div>
     </div>
 
-
-
-<!--HTML for the footer -KS nov 25-->
+<!--HTML for the footer provided from template (KS)-->
 <div class="pgfooter">
     <ul class="ListFooter1">
         <li> <p class="bold">Fleming College GIS</p></li>
@@ -117,6 +125,4 @@
     </ul>
 </div>
 </body>
-<!-- call the js file into html CB-->
-<script src="JS/script.js"></script>
 </html>

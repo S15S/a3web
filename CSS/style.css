@@ -509,7 +509,7 @@ body, html {
   background-image: url("../Images/Banner/team.jpg"); /*styled by Kira*/
 }
 #archaeology {
-  /* the image was way too light with text colour specified in hero-text, changed the gradient to make it look a bit nicer */
+  /* the image was way too light with text colour specified in hero-text, changed the gradient to make it less harsh */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/archaebanner.jpg"); /* styled by Carol */
 }
 
@@ -535,26 +535,31 @@ body, html {
 
 
 /* Navigation Bar CSS - CB Dec 05 */
+/* styled after navigation bar found at: https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci */
 
-.header li {
-  list-style: none;
-}
-
-.header a {
-  text-decoration: none;
-}
-
+/* create the default styling within the created header class CB */
 .header * {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
+/* change list option to none to remove bullet points CB */
+.header li {
+  list-style: none;
+}
+/* make sure that no exterior text features are brought into the navigation bar */
+.header a {
+  text-decoration: none;
+}
+/* create default styling for navbar class within header */
+/* this will allow the page to scroll while keeping the navbar fixed, have the edges go to the edge of the screen, add a line to define the border against the page, and set background colour CB */
 .header .navbar {
   position: fixed;
   top: 0;
   left: 0;
   border-bottom: 1px solid;
   background-color: #2C3531;
+  /* we had to set this variable up so that the menu would appear over the banner - the default page setting is [z-index:0] CB*/
   z-index: 1;
   width:100%;
 }
@@ -567,9 +572,7 @@ body, html {
 }
 
 .navbar li a {
-  /* block display makes the whole area a clickable link*/
   text-align: center;
-  /* these settings are ready in here so that we can edit them later once we've decided on fonts */
   text-decoration: none;
   font-family: "Tahoma", sans-serif; 
   font-size: 16px;
@@ -665,7 +668,7 @@ body, html {
 /* end of Navigation Bar CSS */
 
 /* Archaeology page - CB - Dec 7 */
-
+/* style for object id archaeology */
 .archaeology {
   height: 50%;
   background-position: center;
@@ -675,27 +678,27 @@ body, html {
   width:100%;
   margin-top:20px;
 }
-
-div.arch1 {
+/* top container for page: background colour set and then opacity decreased CB */
+div.archRowContainerA {
   display: grid;
   text-align: center;
   background-color: #007a5580;
   padding: 30px;
 }
-div.arch2 {
+/* bottom container for page: background colour set and then opacity decreased CB */
+div.archRowContainerB {
   display: grid;
   text-align: center;
   background-color: #6c442394;
   padding: 30px;
 }
-
-div.archRowContainer {
+/* style for row within main container */
+div.archRow {
 	display: flex;
 	align-items: center;
 	justify-content: center;
   margin: 20px auto 20px;
 }
-
 /* end of archaeology CSS*/
 
 /* Services Page - SS and BC - Dec 5 */ 
