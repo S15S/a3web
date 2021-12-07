@@ -60,32 +60,38 @@
     <div class="contentContainer">
         <!---Creates a block to hold the headline of the page-->
         <div class="headlineContainer">
-            <h2>Archaeology and GIS work hand in hand to allow us to view human behaviour</h2>
-            <p1>Computational archaeology is an integral component of research and analysis </p1>
+            <h2>Archaeology and GIS work hand in hand to allow us to view the spatial aspect of human behaviour.</h2>
         </div>
-        <!---Creates a block to hold one panel of content i.e. an image next to some related text-->
-        <div class="panelContainer">
-            <div class="image">
-                <img src="Images/field_photoCB.jpg" alt="A landscape view of a farmer's field, Ontario">
-            </div>
-            <!---A block element to hold the text for the given panel, which will sit next to the image-->
-            <div class="mainText">
-                <h3>Archaeological Assessment</h3>
-                <p1>Here at SymbioGIS, we use predictive modeling to more accurately determine a location's potential for archaeological excavation. Our team is focused on 
-                    analyzing an area with respect to its cultural, historical, and agricultural relevance, and producing archaeological sensitivity maps based on these 
-                    qualities in conjunction with geospatial information. We also look at the impact of any future excavation and development on cultural land use, wildlife 
-                    populations, and agricultural preservation.</p1>
-            </div>
+        <!---Create a block to hold content of page in two columns with alternating views -->
+        <div class= "arch1">
+                <div class="archRowContainer">
+                    <div class="image">
+                        <img src="Images/field_photoCB.jpg" alt="A landscape view of a farmer's field, Ontario">
+                    </div>
+                    <!---A block element to hold the text for the given panel, which will sit under the image-->
+                    <div class="mainText">
+                        <h3>Archaeological Assessment</h3>
+                        <p1>Here at SymbioGIS, we use predictive modeling to more accurately determine a location's potential for archaeological excavation. Our team is focused on 
+                            analyzing an area with respect to its cultural, historical, and agricultural relevance, and producing archaeological sensitivity maps based on these 
+                            qualities in conjunction with geospatial information. We also look at the impact of any future excavation and development on cultural land use, wildlife 
+                            populations, and agricultural preservation.</p1>
+                    </div>
+                </div>
         </div>
-        <!---This panel layout can be repeated as many times as necessary for the content on the page-->
-        <div class="panelContainer">
-            <div class="image">
-                <img src="Images/aerial-archae.jpg" alt="An aerial view of a field. Source: Wikipedia">
-            </div>
-            <div class="mainText">
-                <h3>Site Identification</h3>
-                <p1>Through the use of LiDAR and satelite imagery, possible locations of previous landmarks and buildings  </p1>
-            </div>
+        <div class= "arch2">
+                <!---This element will have the image after the text!! -->
+                <div class="archRowContainer">
+                    <div class="mainText">
+                        <h3>Site Identification</h3>
+                        <p1>Through the use of LiDAR and satelite imagery, possible locations of previous landmarks and buildings are identified. GIS helps us to analyze the areas in which
+                            sites are found to determine why and how the location was chosen and how it differs from contemporary finds. Differences in topography, hydrography, or animal 
+                            populations influence the decisions made when initially choosing a site - these datasets are used within our analysis to help determine area use within a greater
+                            archaeological overview study.</p1>
+                    </div>
+                    <div class="image">
+                        <img src="Images/aerial-archae.jpg" alt="An aerial view of a field. Source: Wikipedia">
+                    </div>
+                </div>
         </div>
     </div>
 

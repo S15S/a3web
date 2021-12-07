@@ -676,7 +676,25 @@ body, html {
   margin-top:20px;
 }
 
+div.arch1 {
+  display: grid;
+  text-align: center;
+  background-color: #007a5580;
+  padding: 30px;
+}
+div.arch2 {
+  display: grid;
+  text-align: center;
+  background-color: #6c442394;
+  padding: 30px;
+}
 
+div.archRowContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  margin: 20px auto 20px;
+}
 
 /* end of archaeology CSS*/
 
