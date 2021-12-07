@@ -423,50 +423,44 @@ Starting at 720px or screen size less than that, forces each biography 'column' 
 }
 /*End of Kira's wildlife section*/
 
-/*Footer section by Kathleen*/
+/*Footer section by Kathleen and Kira*/
+.footerRow * {
+  box-sizing: border-box;
+}
 /*This is the css for the page footer sets the background color the same as the 
 nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
-.pgfooter {
+.footerRow {
+  display: table;
+  width: 100%;
   background-color: #2C3531;
   margin-bottom: 0px;
-  min-height:200px;
-  min-width: fit-content;
-  /* width:100%; */
-  font-family: garamond;
   color: #EFE6DC;
   font-size:16pt; 
-  display: flex;
-  justify-content: space-around;
+  font-family: garamond;
 }
-/*this is the main text blurb*/
-
-.FooterTxt {
- /* float:left;*/
- flex:60%;
-  margin-top:80px;
-  margin-left:80px;   
+/*This section makes the 3 parts of the footer act as cells in a table to make it easier to format uniformly and resize - Kira */
+.footer{
+  display: table-cell;
+  float:left;
+  width:33%;
+  padding:10px;
 }
-
-/*These are the two lists of more information*/
-.ListFooter2 {
- /*float:right;*/
- flex:20%;
- margin-right: auto;
- list-style-type: none;
-
- 
+.footerRow:after {
+  content:'';
+  display:table;
+  clear:both;
 }
-
-.ListFooter1 {
-  /*float:right; */
-  flex:20%;
-  margin-right: auto;
-  list-style-type: none;
+/*Make the footer stack vertically for screens smaller than 925px or phones*/
+@media screen and (max-width: 925px) {
+  .footer {
+    width: 100%;
+    display:block;
+  }
 }
 .bold {
   font-weight: bold;
 }
-
+/*End footer section - Kira*/
 
 /* The Banner (Called a hero image) CSS - BC November 24*/
 /*This sets up the height of the whole page - needed by CSS because we are defining the height of the image as a percent of the page*/   
