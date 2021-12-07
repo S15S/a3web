@@ -167,8 +167,7 @@ img {
 
 
 .icon{
-  width:250px;
-  height:150px;
+  max-width:100%;
   margin: auto;
   display: flex;
   justify-content: center;
