@@ -143,13 +143,12 @@ img {
   padding-top: 10px;
 }
 
-/*homepage services banner*/
+/*homepage services banner -KS*/
 .servicesblurb {
   background-color:#D1E8E2;
   margin:auto;
   padding-top:15px;
   padding-bottom:15px;
-  display:flex;
 }
 
 .sblurbtext {
