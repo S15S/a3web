@@ -367,53 +367,59 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 
 
 /* The Banner (Called a hero image) CSS - BC November 24*/
-    /*This sets up the height of the whole page - needed by CSS because we are defining the height of the image as a percent of the page*/   
-    body, html {
-        height: 100%;
-    }
+/*This sets up the height of the whole page - needed by CSS because we are defining the height of the image as a percent of the page*/   
+body, html {
+    height: 100%;
+}
 
-    /*add the banner image - found in the folder Images -> Banner. Could add a linear-gradient which would darken/ make less bright the image*/
-    .hero-image {
-        /* This sets up the height of the image as a percent of the page - currently set to 50% */
-        height: 50%;
+/*add the banner image - found in the folder Images -> Banner. Could add a linear-gradient which would darken/ make less bright the image*/
+.hero-image {
+    /* This sets up the height of the image as a percent of the page - currently set to 50% */
+    height: 50%;
 
-        /* This sets up the position of the image to be the center of the page (background-position: center), to scale on any screens (background-size: cover) and to stop it from repeating or tile the image if it is too small (background-repeat: no repeat) - position: relative sets up for the position of the text */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        width:100%;
-        margin-top:20px;
-    }
-    #home {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/Banner/Trees.jpg");
-    }
-    #wildlife {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/rhino.jpg"); /*styled by Kira*/
-    }
-    #RoadTrees {
-      background-image: url("../Images/Banner/AerialForest.jpg");
-    }
+    /* This sets up the position of the image to be the center of the page (background-position: center), to scale on any screens (background-size: cover) and to stop it from repeating or tile the image if it is too small (background-repeat: no repeat) - position: relative sets up for the position of the text */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width:100%;
+    margin-top:20px;
+}
+#home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/Banner/Trees.jpg");
+}
+#wildlife {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/rhino.jpg"); /*styled by Kira*/
+}
+#RoadTrees {
+  background-image: url("../Images/Banner/AerialForest.jpg");
+}
 
-    #Urbanp {
-      background-image: url("../Images/Banner/bannerUP.jpg")
-    }
-    #about {
-      background-image: url("../Images/Banner/team.jpg"); /*styled by Kira*/
-    }
+#Urbanp {
+  background-image: url("../Images/Banner/bannerUP.jpg")
+}
+#about {
+  background-image: url("../Images/Banner/team.jpg"); /*styled by Kira*/
+}
 
-    /* This adds and positions the text to the image - it add's it to the center of the image (text-align: center), and positioned correctly in the image (position: absolute, top: 50% , left: 50% and transform: translate (-50%, -50%) and it set the font colour */
-    .hero-text {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: rgb(221, 214, 214);
-        text-shadow: 2px 2px #2C3531;
-        font-size: 30pt;
-        font-family: Tahoma, sans-serif;
-    }
+/* This adds and positions the text to the image - it add's it to the center of the image (text-align: center), and positioned correctly in the image (position: absolute, top: 50% , left: 50% and transform: translate (-50%, -50%) and it set the font colour */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(221, 214, 214);
+    text-shadow: 2px 2px #2C3531;
+    font-size: 30pt;
+    font-family: Tahoma, sans-serif;
+}
+
+@media all and (max-width: 775px) {
+  .hero-text {
+    font-size: 20pt;
+  }
+}
 /* end of the Banner CSS */ 
 
 
