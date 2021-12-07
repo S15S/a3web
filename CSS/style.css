@@ -219,6 +219,7 @@ flex:30%;
   display: table;
   clear: both;
 }
+
 .forestcolumn { /*the is the column text */
 	text-align: left;
   font-family: garamond, serif;
@@ -248,7 +249,10 @@ flex:30%;
   margin-left: 30%;
 }
 
+
+
 /* End of Steph's Forestry Stuff */
+
 /*beginning of KS CSS*/
 #UrbanPlanning {
   line-height: 25px;
