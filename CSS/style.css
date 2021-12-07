@@ -163,6 +163,7 @@ img {
   display: table;
   clear: both;
 }
+
 .forestcolumn { /*the is the column text */
 	text-align: left;
   font-family: garamond, serif;
@@ -192,7 +193,10 @@ img {
   margin-left: 30%;
 }
 
+
+
 /* End of Steph's Forestry Stuff */
+
 /*beginning of KS CSS*/
 #UrbanPlanning {
   line-height: 25px;
