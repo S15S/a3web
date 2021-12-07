@@ -142,6 +142,62 @@ img {
   padding-bottom: 10px;
   padding-top: 10px;
 }
+
+/*homepage services banner*/
+.servicesblurb {
+  background-color:#D1E8E2;
+  margin:auto;
+  padding-top:15px;
+  padding-bottom:15px;
+  display:flex;
+}
+
+.sblurbtext {
+  font-size: 25px;
+  padding-bottom:10px;
+  flex:80%;
+ 
+}
+
+.servicesummary{
+  display: flex;
+  margin:auto;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+}
+
+/* 
+.eachservice{
+flex:30%;
+} */
+
+.icon{
+  width:250px;
+  height:150px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* .servicesummary{
+  display:flex
+}
+.icon {
+  width:250px;
+  height:150px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+} */
+
+.serviceslist {
+  list-style: none;
+  flex:100;
+  font-size:20px;
+}
+
+
+
 /* Steph's Forestry stuff */
 /* the column css was found on the w3 schools website */
 .column1 {
