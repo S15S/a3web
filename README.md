@@ -32,15 +32,15 @@ Due dates will be added once the template design is complete.
 #### Pages:
 *Goal* | *Assigned to* | *Due by* | *Complete? (Y/N)*
 --- | --- | --- | ---
-Page 1: Home HTML framework| Carol | Monday, Dec 6th |
-Page 1: Home CSS design| Becca & Steph | Monday, Dec 6th |
-Page 1: Home content|  Kira,Kathleen | Monday, Dec 6th |
-Page 2: About Us | Kathleen & Kira  | Monday, Dec 6th |
+Page 1: Home HTML framework| Kathleen & Kira | Monday, Dec 6th | Y
+Page 1: Home CSS design| Kathleen & Kira | Monday, Dec 6th | Y
+Page 1: Home content|  Kira,Kathleen | Monday, Dec 6th | Y
+Page 2: About Us | Kathleen & Kira  | Monday, Dec 6th | Y
 Page 3: Services | Becca & Stephanie | Monday, Dec 6th |
 Page 4: Archaeology | Carol | Monday, Dec 6th |
 Page 5: Forestry | Stephanie | Monday, Dec 6th |
 Page 6: Geography | Becca | Monday, Dec 6th |
 Page 7: Urban Planning | Kathleen | Monday, Dec 6th |
 Page 8: Wildlife & Habitat Management | Kira | Monday, Dec 6th | Y
-Group meeting to finalize CSS tasks | All | Monday after Web  |
+Group meeting to finalize CSS tasks | All | Monday after Web  | Y
 Submit project | Kira | Wednesday, Dec 8th |
