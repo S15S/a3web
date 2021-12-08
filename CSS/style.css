@@ -260,12 +260,14 @@ img {
 @media screen and (max-width: 500px) {
   .column1 {
     width: 100%;
+    display:block;
   }
 }
 /* this is to make the column2 stack when page width is changed*/
 @media screen and (max-width: 500px) {
   .column2 {
     width: 100%;
+    display:block;
   }
 }
 /* this is to make the images resize appropriately when page width is changed*/
