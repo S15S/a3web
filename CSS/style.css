@@ -25,7 +25,7 @@ h3 {
 p {
 	text-align: center;
 }
-
+/*sets the body content to use only 80% of the screen. The navbar and footer will use 100%. - KL*/
 .contentContainer {
   width: 80%;
   text-align: center;
@@ -77,7 +77,9 @@ img {
   height: 100%;
   object-fit: contain;
 }
-/*Home page banner stuff*/
+
+/*Home page CSS by Kira*/
+/*Formatting the text blurbs on the home page to not use the default h1 and h2 properties*/
 .blurbs {
   text-align: center;
   margin:40px;
@@ -96,6 +98,8 @@ img {
   color:#165844;
   font-family: Tahoma;
 }
+/*creating the image hover overlay section for the services link*/
+/*used W3Schools tutorial for help: https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
 .homebanners {
   position: relative;
   width:100%;
@@ -117,6 +121,7 @@ img {
   transition: .5s ease;
   background-color:#758A79;
 }
+/*Make the image overlay more opaque as you hover so the text is clear*/
 .homebanners:hover .overlay{
   opacity:0.75;
 }
@@ -130,9 +135,11 @@ img {
   text-align: center;
   text-decoration: none;
 }
+/*add an underline to the text on hover to indicate that it is a link.*/
 .bannertext:hover {
   text-decoration:underline;
 }
+/*styling the map container that holds the OSM map of Lindsay*/
 .map {
   width:99%; 
   height:50%;
@@ -171,7 +178,7 @@ img {
   display: flex;
   justify-content: center;
 }
-/* end of home services summary banner -KS 21-12-07*/
+/* end of home services summary banner -KS  and KL 21-12-07*/
 
 
 
@@ -305,14 +312,11 @@ background-color: #116466;
   display: flex;
   justify-content: center;
 }
-
-
-
 /*Ending of KS css- 2021-12-07*/
 
 
-/* This is the css for the About Us page - written by Kira*/
 
+/* This is the css for the About Us page - written by Kira*/
 
 /*This styles the div for the members' bios in the both rows on the page. 
 It forces the captions to stay within the bounds of the images (337px)*/
@@ -351,7 +355,7 @@ Starting at 720px or screen size less than that, forces each biography 'column' 
     width: 100%;
   }
 }
-/*End of About Us CSS*/
+/*End of About Us CSS - KL*/
 
 
 /*Wildlife Conservation page CSS - written by Kira*/
@@ -392,6 +396,7 @@ Starting at 720px or screen size less than that, forces each biography 'column' 
   text-align: left;
 }
 /*End of Kira's wildlife section*/
+
 
 /*Footer section by Kathleen and Kira*/
 .footerRow * {
@@ -574,11 +579,13 @@ body, html {
   color: #EFE6DC;
 }
 /* will change the color of the link text when hovered over CB */
+/*make the link name oblique on hover to make it more obvious to the user which tab they're on - KL*/
 .nav-link:hover{
   color: #ffffff;
   font-style: oblique;
 }
 /* will change the color of the link text when class for a specific link is set to 'active' CB */
+/*make the link name bold on hover to make it more obvious to the user which tab they're on - KL*/
 .active{
   color: #D1E8E2;
   font-weight:bold;
@@ -630,7 +637,7 @@ body, html {
       transform: translateY(-8px) rotate(-45deg);
   }
 }
-/**** we had initially wanted to include webkit to make the burger button compatible with internet explorer, but it causes CSS warnings so we opted against it*/
+/**** we had initially wanted to include webkit to make the burger button compatible with internet explorer, but it causes CSS warnings so we opted against it - KL*/
 /* end of Navigation Bar CSS */
 
 /* Archaeology page - CB - Dec 7 */
