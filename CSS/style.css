@@ -193,20 +193,24 @@ img {
 /* the column css was found on the w3 schools website and changed accordingly. https://www.w3schools.com/howto/howto_css_two_columns.asp */
 
 /* the columns are for different subjects and I made them different by changing the colour to clearly show this*/
+.row {
+  display: table;
+  width:100%;
+}
 .column1 {
-  float: left;
   width: 50%;
   font-family: garamond, serif;
   background-color: #758A79;
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  display:table-cell;
   /* the columns are for different subjects and I made them different by changing the colour to clearly show this*/
 }
 .column2 {
-  float: left;
   width: 50%;
   font-family: garamond, serif;
   background-color: #3B8268;
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  display:table-cell;
 }
 /* also from w3Schools to keep the division between the columns clear*/
 .row:after {
@@ -227,7 +231,7 @@ img {
 	align-items: center;
 	padding: 5px;
 	background-color: #2E6F72;
-	margin: 0px;
+	margin-bottom: 15px;
 }
 /*the is the text within the forestry container*/
 .foresttext { 
