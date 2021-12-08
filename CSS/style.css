@@ -1,8 +1,14 @@
 /*This will be our css style sheet*/
-/*Last Update: 11/24/2021 by Carol */
+/*Last Update: 12/08/2021 by Carol */
+/*Within the CSS comments, the following identifiers refer to the group members in the format 'section - component':
+Carol Buckingham - CB;
+Becca Carmichael - BC;
+Kira-Marie Lazda - KL;
+Stephanie Scane - SS;
+Kathleen Soodhoo - KS*/
 /*The colour palette for the site can be found and changed here: https://coolors.co/6c4423-2c3531-165844-007a56-3b8268-758a79-d9b08c-d1e8e2-2e6f72-116466 */
 
-/* Main template css used on multiple pages - originally written by Steph */
+/* Main template css used on multiple pages - originally written by Stephanie Scane */
 html, body{
   margin:0;
   padding-top: 15px;
@@ -82,7 +88,7 @@ img {
 /* end of main template CSS section */
 
 
-/*Home page CSS by Kira*/
+/*Home page CSS by Kira-Marie Lazda*/
 /*Formatting the text blurbs on the home page to not use the default h1 and h2 properties*/
 .blurbs {
   text-align: center;
@@ -157,7 +163,7 @@ img {
 /* end of main home page CSS */
 
 
-/*homepage services banner -KS*/
+/*homepage services banner - Kathleen Soodhoo*/
 .servicesblurb {
   background-color:#D1E8E2;
   padding:15px;
@@ -182,10 +188,10 @@ img {
   display: flex;
   justify-content: center;
 }
-/* end of home services summary banner -KS  and KL 21-12-07*/
+/* end of home services summary banner - edits by Kira-Marie Lazda 21-12-07*/
 
 
-/* Steph's Forestry stuff */
+/* Forestry page CSS - Stephanie Scane */
 /* the column css was found on the w3 schools website */
 .column1 {
   float: left;
@@ -278,7 +284,7 @@ img {
 /* End of Steph's Forestry Stuff */
 
 
-/*beginning of urban planning page CSS by Kathleen */
+/*beginning of urban planning page CSS by Kathleen Soodhoo */
 
 .planningLeft { 
   line-height: 25px;
@@ -310,10 +316,10 @@ background-color: #116466;
   display: flex;
   justify-content: center;
 }
-/*Ending of KS css- 2021-12-07*/
+/*Ending of urban planning css- 2021-12-07*/
 
 
-/* This is the css for the About Us page - written by Kira*/
+/* This is the css for the About Us page - written by Kira-Marie Lazda */
 
 /*This styles the div for the members' bios in the both rows on the page. 
 It forces the captions to stay within the bounds of the images (337px)*/
@@ -353,7 +359,7 @@ Starting at 720px or screen size less than that, forces each biography 'column' 
 /*End of About Us CSS - KL*/
 
 
-/*Wildlife Conservation page CSS - written by Kira*/
+/*Wildlife Conservation page CSS - written by Kira-Marie Lazda*/
 
 /*Style the container holding the wildlife content using flex for a responsive dual layout of my text and image*/
 /*Used W3Schools framework: https://www.w3schools.com/css/css3_flexbox.asp*/
@@ -390,10 +396,10 @@ Starting at 720px or screen size less than that, forces each biography 'column' 
 #habitat{
   text-align: left;
 }
-/*End of Kira's wildlife section*/
+/* End of Kira's wildlife section */
 
 
-/*Footer section by Kathleen and Kira*/
+/* Footer section by Kathleen Soodhoo and Kira-Marie Lazda */
 .footerRow * {
   box-sizing: border-box;
 }
@@ -434,7 +440,7 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 /*End footer section - Kira*/
 
 
-/* The Banner (Called a hero image) CSS - BC November 24*/
+/* The Banner (Called a hero image) CSS - Becca Carmichael November 24*/
 /*This sets up the height of the whole page - needed by CSS because we are defining the height of the image as a percent of the page*/   
 body, html {
     height: 100%;
@@ -457,26 +463,26 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/Banner/Trees.jpg");
 }
 #wildlife {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/rhino.jpg"); /*styled by Kira*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/rhino.jpg"); /*styled by KL*/
 }
 #RoadTrees {
   background-image: url("../Images/Banner/AerialForest.jpg");
 }
 #geo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(102, 83, 83, 0.3)), url("../Images/Banner/geography_banner.jpg"); /*styled by Becca*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(102, 83, 83, 0.3)), url("../Images/Banner/geography_banner.jpg"); /*styled by BC*/
 }
 #services {
-  background-image: url("../Images/Banner/services_banner.jpg"); /*styled by Becca*/
+  background-image: url("../Images/Banner/services_banner.jpg"); /*styled by BC*/
 }
 #Urbanp {
   background-image: url("../Images/Banner/bannerUP.jpg");
 }
 #about {
-  background-image: url("../Images/Banner/team.jpg"); /*styled by Kira*/
+  background-image: url("../Images/Banner/team.jpg"); /*styled by KL*/
 }
 #archaeology {
   /* the image was way too light with text colour specified in hero-text, changed the gradient to make it less harsh */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/archaebanner.jpg"); /* styled by Carol */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/archaebanner.jpg"); /* styled by CB */
 }
 /* end of Banner Image styling section within Banner CSS */
 
@@ -501,16 +507,16 @@ body, html {
 /* end of the Banner CSS */ 
 
 
-/* Navigation Bar CSS - CB Dec 05 */
+/* Navigation Bar CSS - Carol Buckingham Dec 05 */
 /* styled after navigation bar found at: https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci */
 
-/* create the default styling within the created header class CB */
+/* create the default styling within the created header class */
 .header * {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
-/* change list option to none to remove bullet points CB */
+/* change list option to none to remove bullet points */
 .header li {
   list-style: none;
 }
@@ -519,14 +525,14 @@ body, html {
   text-decoration: none;
 }
 /* create default styling for navbar class within header */
-/* this will allow the page to scroll while keeping the navbar fixed, have the edges go to the edge of the screen, add a line to define the border against the page, and set background colour CB */
+/* this will allow the page to scroll while keeping the navbar fixed, have the edges go to the edge of the screen, add a line to define the border against the page, and set background colour */
 .header .navbar {
   position: fixed;
   top: 0;
   left: 0;
   border-bottom: 1px solid;
   background-color: #2C3531;
-  /* we had to set this variable up so that the menu would appear over the banner - the default page setting is [z-index:0] CB*/
+  /* we had to set this variable up so that the menu would appear over the banner - the default page setting is [z-index:0] */
   z-index: 1;
   width:100%;
 }
@@ -537,19 +543,19 @@ body, html {
   align-items: center;
   padding: 10px;
 }
-/* adds in text and font styling to navbar - we removed settings back to default at beginning of section CB */
+/* adds in text and font styling to navbar - we removed settings back to default at beginning of section */
 .navbar li a {
   text-align: center;
   text-decoration: none;
   font-family: "Tahoma", sans-serif; 
   font-size: 16px;
   }
-/* ensures that JS hamburger button will not show on larger screens CB */
+/* ensures that JS hamburger button will not show on larger screens */
 .hamburger {
   display: none;
 }
 /* creates bar class */
-/* sets styling for hamburger bars: entire area is clickable (display: block), transition time for when object is moving after click, bar color will match with link elements CB */
+/* sets styling for hamburger bars: entire area is clickable (display: block), transition time for when object is moving after click, bar color will match with link elements */
 .bar {
   display: block;
   width: 25px;
@@ -559,41 +565,41 @@ body, html {
   transition: all 0.3s ease-in-out;
   background-color: #EFE6DC;
 }
-/* creates styling for nav-menu CB */
+/* creates styling for nav-menu */
 .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/* adds space between links CB */
+/* adds space between links */
 .nav-item {
   margin-left: 5rem;
 }
-/* creates styling for nav-link (links to pages) CB */
+/* creates styling for nav-link (links to pages) */
 .nav-link{
   font-size: 1.6rem;
   font-weight: 400;
   color: #EFE6DC;
 }
-/* will change the color of the link text when hovered over CB */
+/* will change the color of the link text when hovered over */
 /*make the link name oblique on hover to make it more obvious to the user which tab they're on - KL*/
 .nav-link:hover{
   color: #ffffff;
   font-style: oblique;
 }
-/* will change the color of the link text when class for a specific link is set to 'active' CB */
+/* will change the color of the link text when class for a specific link is set to 'active' */
 /*make the link name bold on hover to make it more obvious to the user which tab they're on - KL*/
 .active{
   color: #D1E8E2;
   font-weight:bold;
 }
-/* creates styling for nav-logo (company name) CB */
+/* creates styling for nav-logo (company name) */
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
   color: #EFE6DC;
 }
-/* these settings set up the default styling for smaller screens - set to 1500 px to account for number of page links included in navbar CB */
+/* these settings set up the default styling for smaller screens - set to 1500 px to account for number of page links included in navbar */
 @media only screen and (max-width: 1500px) {
   .nav-menu {
       position: absolute;
@@ -608,20 +614,20 @@ body, html {
       box-shadow:
           0 10px 27px rgba(0, 0, 0, 0.05);
   }
-/* navbar menu will start at the far left of the screen CB */
+/* navbar menu will start at the far left of the screen */
   .nav-menu.active {
       left: 0;
   }
-/* set margins for links so that they appear correctly on the screen within the nav-menu class CB */
+/* set margins for links so that they appear correctly on the screen within the nav-menu class */
   .nav-item {
       margin: 1.6rem 0;
   }
-/* displays the previously undisplayed hamburger button on a smaller screen, changes user cursor to show that area is clickable CB */
+/* displays the previously undisplayed hamburger button on a smaller screen, changes user cursor to show that area is clickable */
   .hamburger {
       display: block;
       cursor: pointer;
   }
-/* these class definitions allow the bars to rotate when clicked and removes the middle bar from the display CB */
+/* these class definitions allow the bars to rotate when clicked and removes the middle bar from the display */
   .hamburger.active .bar:nth-child(2) {
       opacity: 0;
   }
@@ -638,7 +644,7 @@ body, html {
 /* end of Navigation Bar CSS */
 
 
-/* Archaeology page - CB - Dec 7 */
+/* Archaeology page - Carol Buckingham - Dec 7 */
 /* style for object id archaeology */
 #archaeology {
   height: 50%;
@@ -649,21 +655,21 @@ body, html {
   width:100%;
   margin-top:20px;
 }
-/* top container for page: background colour set and then opacity decreased CB */
+/* top container for page: background colour set and then opacity decreased */
 div.archRowContainerA {
   display: grid;
   text-align: center;
   background-color: #007a5580;
   padding: 30px;
 }
-/* bottom container for page: background colour set and then opacity decreased CB */
+/* bottom container for page: background colour set and then opacity decreased */
 div.archRowContainerB {
   display: grid;
   text-align: center;
   background-color: #6c442394;
   padding: 30px;
 }
-/* style for row within main container CB */
+/* style for row within main container */
 div.archRow {
 	display: flex;
 	align-items: center;
@@ -676,7 +682,7 @@ div.archRow {
 /* end of archaeology page CSS*/
 
 
-/* Services page CSS section */
+/* Services page CSS section - Stephanie Scane and Becca Carmichael */
 /* button links for each area of expertise - by SS & BC Dec 6 (used https://www.w3schools.com/tags/tag_button.asp)*/   
 .button {
   font-family: Tahoma, sans-serif;
@@ -736,5 +742,6 @@ div.contentIntro {
   font-size: 20px;
 }
 /* end of Geography page CSS*/
+
 
 /* END OF CSS STYLESHEET */
