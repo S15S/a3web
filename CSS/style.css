@@ -566,7 +566,7 @@ body, html {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
+  /*-webkit-transition: all 0.3s ease-in-out;*/
   transition: all 0.3s ease-in-out;
   background-color: #EFE6DC;
 }
@@ -635,14 +635,15 @@ body, html {
       opacity: 0;
   }
   .hamburger.active .bar:nth-child(1) {
-      -webkit-transform: translateY(8px) rotate(45deg);
+      /*-webkit-transform: translateY(8px) rotate(45deg); */
       transform: translateY(8px) rotate(45deg);
   }
   .hamburger.active .bar:nth-child(3) {
-      -webkit-transform: translateY(-8px) rotate(-45deg);
+      /*-webkit-transform: translateY(-8px) rotate(-45deg);*/
       transform: translateY(-8px) rotate(-45deg);
   }
 }
+/**** we had initially wanted to include webkit to make the burger button compatible with internet explorer, but it causes CSS warnings so we opted against it*/
 /* end of Navigation Bar CSS */
 
 /* Archaeology page - CB - Dec 7 */
