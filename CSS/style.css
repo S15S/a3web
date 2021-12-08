@@ -219,15 +219,15 @@ img {
 .forestcolumn { 
 	text-align: left;
   font-family: garamond, serif;
-	margin: 15px
+	margin: 5px
 }
 
 .forestrycontainer { /*the is the block dedicated to additional information about GIS and Forestry*/
 	display: flex;
 	align-items: center;
-	padding: 30px;
+	padding: 5px;
 	background-color: #2E6F72;
-	margin: 10px
+	margin: 0px;
 }
 /*the is the text within the forestry container*/
 .foresttext { 
@@ -240,8 +240,8 @@ img {
 }
 /* this is the class to size the images within the columns*/
 .forestimage {
-	width: 400px;
-  height: 250px;
+	max-width: 400px;
+  max-height: 250px;
 	margin: auto;
 	display: flex;
 	justify-content: center;
