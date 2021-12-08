@@ -721,7 +721,7 @@ div.columns {
 }
 
 /* style for each column */
-span.columnContainer {
+div.columnContainer {
   width: 80%;
   height: 80%;
   margin: 25px auto 60px;
