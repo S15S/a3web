@@ -147,9 +147,7 @@ img {
 /*homepage services banner -KS*/
 .servicesblurb {
   background-color:#D1E8E2;
-  margin:auto;
-  padding-top:15px;
-  padding-bottom:15px;
+  padding:15px;
 }
 
 .sblurbtext {
@@ -315,16 +313,8 @@ background-color: #116466;
 
 /* This is the css for the About Us page - written by Kira*/
 
-/*This styles the div for the two members' bios in the first row on the page. 
-It forces the captions to stay within the bounds of the images (400px)*/
-.bioImg-with-text2{
-  vertical-align: top;
-  text-align: left;
-  width:400px;
-  display: inline-block;
-  padding:10px;
-}
-/*This styles the div for the three members' bios in the second row on the page. 
+
+/*This styles the div for the members' bios in the both rows on the page. 
 It forces the captions to stay within the bounds of the images (337px)*/
 .bioImg-with-text{
   vertical-align: top;
@@ -332,11 +322,8 @@ It forces the captions to stay within the bounds of the images (337px)*/
   width:337px;
   display: inline-block;
   padding:10px;
+  margin:0px;
 }
-/*.bioImg-with-text img {
-  margin-left: auto;
-  margin-right:auto;
-}*/
 
 /*This displays the text as a block and sets the width to 100% of its allowed pixels as was set above*/
 .caption {
@@ -380,7 +367,7 @@ Starting at 720px or screen size less than that, forces each biography 'column' 
   margin-bottom: 10px;
 }
 /*adjust some font properties from the defaults set above*/
-.caption h4{
+.BodyText h4{
   font-weight: 200;
 }
 #wildlifetext {
