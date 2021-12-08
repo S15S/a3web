@@ -733,7 +733,7 @@ div.contentIntro {
   padding: 20px;
 }
 /* Text style for content */
-.geographyText {
+.geographyText p {
   text-align: left;
   font-size: 20px;
 }
