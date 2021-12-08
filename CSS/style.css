@@ -189,14 +189,17 @@ img {
 
 
 /* Forestry page CSS - Stephanie Scane */
-/* the column css was found on the w3 schools website */
+
+/* the column css was found on the w3 schools website and changed accordingly. https://www.w3schools.com/howto/howto_css_two_columns.asp */
+
+/* the columns are for different subjects and I made them different by changing the colour to clearly show this*/
 .column1 {
   float: left;
   width: 50%;
   font-family: garamond, serif;
   background-color: #758A79;
   margin-bottom: 10px
-  
+  /* the columns are for different subjects and I made them different by changing the colour to clearly show this*/
 }
 .column2 {
   float: left;
@@ -205,25 +208,29 @@ img {
   background-color: #3B8268;
   margin-bottom: 10px
 }
+/* also from w3Schools to keep the division between the columns clear*/
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.forestcolumn { /*the is the column text */
+/*the is the column text */
+.forestcolumn { 
 	text-align: left;
   font-family: garamond, serif;
-	margin-left: 15px
+	margin: 15px
 }
-.forestrycontainer { /*the is the area where the block of text will go */
+
+.forestrycontainer { /*the is the block dedicated to additional information about GIS and Forestry*/
 	display: flex;
 	align-items: center;
 	padding: 30px;
 	background-color: #2E6F72;
 	margin: 10px
 }
-.foresttext { /*the is the forestry container text */
+/*the is the text within the forestry container*/
+.foresttext { 
 	text-align: left;
   font-family: garamond, serif;
   color: #D1E8E2;
@@ -231,6 +238,7 @@ img {
   font-weight: bold;
 	margin-left: 10px
 }
+/* this is the class to size the images within the columns*/
 .forestimage {
 	width: 400px;
   height: 250px;
@@ -238,47 +246,49 @@ img {
 	display: flex;
 	justify-content: center;
 }
-
+/* this is the class to align the bullet points */
 .forestpoints {
   margin-left: 30%;
+  text-align: left;
 }
 
+/* this is to make the column1 stack when page width is changed*/
 @media screen and (max-width: 500px) {
   .column1 {
     width: 100%;
   }
 }
-
+/* this is to make the column2 stack when page width is changed*/
 @media screen and (max-width: 500px) {
   .column2 {
     width: 100%;
   }
 }
-
+/* this is to make the images resize appropriately when page width is changed*/
 @media screen and (max-width: 500px) {
   .forestimage {
     width: 100%;
   }
 }
-
+/* this is to make the text within the columns resize appropriately when page width is changed*/
 @media screen and (max-width: 500px) {
   .forestcolumn {
     width: 100%;
   }
 }
-
+/* this is to make the bottom banner resize appropriately when page width is changed*/
 @media screen and (max-width: 500px) {
   .forestrycontainer {
     width: 100%;
   }
 }
-
+/* this is to make the text within the bottom banner resize appropriately when page width is changed*/
 @media screen and (max-width: 500px) {
   .foresttext {
     width: 100%;
   }
 }
-/* End of Steph's Forestry Stuff */
+/* End of CSS for the Forestry Page by Stephanie Scane */
 
 
 /*beginning of urban planning page CSS by Kathleen Soodhoo */
