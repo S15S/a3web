@@ -157,7 +157,8 @@ img {
 /* end of main home page CSS */
 
 
-/*homepage services banner -KS*/
+/*homepage services banner by Kathleen*/
+/* main box for holding this section  */
 .servicesblurb {
   background-color:#D1E8E2;
   padding:15px;
@@ -168,7 +169,7 @@ img {
   padding-bottom:10px;
   flex:80%;
 }
-
+/* creating a "row" for all of the icons and making them evenly spaced within it  */
 .servicesummary{
   display: flex;
   margin:auto;
@@ -279,20 +280,20 @@ img {
 
 
 /*beginning of urban planning page CSS by Kathleen */
-
+/* styling the text box at the top of the content container */
 .planningLeft { 
   line-height: 25px;
   font-size:20px;
   background-color: #D1E8E2;
   padding:20px;
 }
-
+/* creating a flex box for holding the two maps plus their captions  */
 .maps {
   display: flex;
   margin:auto;
   margin-bottom: 50px;
 }
-
+/* styling each individual cation and map */
 .PlanningMapOne{
 flex:50%;
 color:cornsilk;
@@ -303,7 +304,7 @@ background-color: #116466;
 .caption {
   font-size: 20px;
 }
-
+/* styling the contaniner and making sure it's responsive  */
 .each{
   max-width:100%;
   margin: auto;
