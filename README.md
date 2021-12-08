@@ -38,9 +38,9 @@ Page 1: Home content|  Kira & Kathleen | Monday, Dec 6th | Y
 Page 2: About Us | Kathleen & Kira  | Monday, Dec 6th | Y
 Page 3: Services | Becca & Stephanie | Monday, Dec 6th |
 Page 4: Archaeology | Carol | Monday, Dec 6th | Y
-Page 5: Forestry | Stephanie | Monday, Dec 6th |
-Page 6: Geography | Becca | Monday, Dec 6th |
-Page 7: Urban Planning | Kathleen | Monday, Dec 6th |
+Page 5: Forestry | Stephanie | Monday, Dec 6th | Y
+Page 6: Geography | Becca | Monday, Dec 6th | Y
+Page 7: Urban Planning | Kathleen | Monday, Dec 6th | Y
 Page 8: Wildlife & Habitat Management | Kira | Monday, Dec 6th | Y
 Group meeting to finalize CSS tasks | All | Monday after Web  | Y
-Submit project | Kira | Wednesday, Dec 8th |
+Submit project | Kira | Wednesday, Dec 8th | Y
