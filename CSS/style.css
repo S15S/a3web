@@ -7,6 +7,7 @@ html, body{
   margin:0;
   padding-top: 15px;
 }
+
 h1 {
     color: rgb(241, 238, 238);
     font-family: Tahoma, sans-serif;
@@ -14,6 +15,7 @@ h1 {
     text-shadow: 2px 2px #2C3531;
     text-align: center;
 }
+
 h2 {
 	text-align: center;
 }
@@ -78,6 +80,7 @@ img {
   object-fit: contain;
 }
 /* end of main template CSS section */
+
 
 /*Home page CSS by Kira*/
 /*Formatting the text blurbs on the home page to not use the default h1 and h2 properties*/
@@ -178,6 +181,7 @@ img {
   justify-content: center;
 }
 /* end of home services summary banner -KS  and KL 21-12-07*/
+/* end of home page CSS */
 
 
 /* Steph's Forestry stuff */
@@ -270,13 +274,10 @@ img {
     width: 100%;
   }
 }
-
 /* End of Steph's Forestry Stuff */
 
 
 /*beginning of urban planning page CSS by Kathleen */
- 
-
 
 .planningLeft { 
   line-height: 25px;
@@ -290,7 +291,6 @@ img {
   margin:auto;
   margin-bottom: 50px;
 }
-
 
 .PlanningMapOne{
 flex:50%;
@@ -324,7 +324,6 @@ It forces the captions to stay within the bounds of the images (337px)*/
   padding:10px;
   margin:0px;
 }
-
 /*This displays the text as a block and sets the width to 100% of its allowed pixels as was set above*/
 .caption {
   display: block;
@@ -433,12 +432,12 @@ nav bar as well as the font style and colour for the whole nav bar -KS NOV 25*/
 }
 /*End footer section - Kira*/
 
+
 /* The Banner (Called a hero image) CSS - BC November 24*/
 /*This sets up the height of the whole page - needed by CSS because we are defining the height of the image as a percent of the page*/   
 body, html {
     height: 100%;
 }
-
 /*add the banner image - found in the folder Images -> Banner. Could add a linear-gradient which would darken/ make less bright the image*/
 .hero-image {
     /* This sets up the height of the image as a percent of the page - currently set to 50% */
@@ -452,6 +451,8 @@ body, html {
     width:100%;
     margin-top:20px;
 }
+
+/* Banner Image styling section */
 #home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/Banner/Trees.jpg");
 }
@@ -477,6 +478,7 @@ body, html {
   /* the image was way too light with text colour specified in hero-text, changed the gradient to make it less harsh */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/archaebanner.jpg"); /* styled by Carol */
 }
+/* end of Banner Image styling section */
 
 /* This adds and positions the text to the image - it add's it to the center of the image (text-align: center), and positioned correctly in the image (position: absolute, top: 50% , left: 50% and transform: translate (-50%, -50%) and it set the font colour */
 .hero-text {
@@ -635,6 +637,7 @@ body, html {
 /**** we had initially wanted to include webkit to make the burger button compatible with internet explorer, but it causes CSS warnings so we opted against it - KL*/
 /* end of Navigation Bar CSS */
 
+
 /* Archaeology page - CB - Dec 7 */
 /* style for object id archaeology */
 #archaeology {
@@ -670,9 +673,10 @@ div.archRow {
 .archRow p {
   text-align: left;
 }
-/* end of archaeology CSS*/
+/* end of archaeology page CSS*/
 
-/*Services*/
+
+/* Services page CSS section */
 /* button links for each area of expertise - by SS & BC Dec 6 (used https://www.w3schools.com/tags/tag_button.asp)*/   
 .button {
   font-family: Tahoma, sans-serif;
@@ -700,13 +704,14 @@ a.serviceButton {
   padding: 20px;
   margin: 2px 10px;
 }
+/* end of Services page CSS */
+
 
 /* Geography page by Becca Carmichael - resources used: W3School - Dec 6 */
 /* Columns for geo page additional style for the container that holds all the page content (still also uses the contentContainer class) */
 div.columnContent {
   margin: 20px auto 20px;
 }
-
 /* div.columns is the div that uses css grid to hold all of the content */
 div.columns {
   display: grid;
@@ -714,14 +719,12 @@ div.columns {
   text-align: center;
   background-color: #D1E8E2;
 }
-
 /* style for each column */
 div.columnContainer {
   width: 80%;
   height: 80%;
   margin: 25px auto 60px;
 }
-
 /* Text style for intro blurb*/
 div.contentIntro {
   font-size: 24px;
@@ -732,3 +735,6 @@ div.contentIntro {
   text-align: left;
   font-size: 20px;
 }
+/* end of Geography page CSS*/
+
+/* END OF CSS STYLESHEET */

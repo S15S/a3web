@@ -23,4 +23,4 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
-// this is the end of the script.JS file
+// end of the script.JS file
