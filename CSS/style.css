@@ -642,7 +642,7 @@ body, html {
 
 /* Archaeology page - CB - Dec 7 */
 /* style for object id archaeology */
-.archaeology {
+#archaeology {
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
