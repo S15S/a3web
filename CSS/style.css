@@ -154,6 +154,8 @@ img {
   padding-bottom: 10px;
   padding-top: 10px;
 }
+/* end of main home page CSS */
+
 
 /*homepage services banner -KS*/
 .servicesblurb {
@@ -181,7 +183,6 @@ img {
   justify-content: center;
 }
 /* end of home services summary banner -KS  and KL 21-12-07*/
-/* end of home page CSS */
 
 
 /* Steph's Forestry stuff */
@@ -451,7 +452,6 @@ body, html {
     width:100%;
     margin-top:20px;
 }
-
 /* Banner Image styling section */
 #home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/Banner/Trees.jpg");
@@ -478,7 +478,7 @@ body, html {
   /* the image was way too light with text colour specified in hero-text, changed the gradient to make it less harsh */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Banner/archaebanner.jpg"); /* styled by Carol */
 }
-/* end of Banner Image styling section */
+/* end of Banner Image styling section within Banner CSS */
 
 /* This adds and positions the text to the image - it add's it to the center of the image (text-align: center), and positioned correctly in the image (position: absolute, top: 50% , left: 50% and transform: translate (-50%, -50%) and it set the font colour */
 .hero-text {
