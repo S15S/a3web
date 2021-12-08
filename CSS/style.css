@@ -672,6 +672,9 @@ div.archRow {
 	justify-content: center;
   margin: 20px auto 20px;
 }
+.archRow p {
+  text-align: left;
+}
 /* end of archaeology CSS*/
 
 /*Services*/
