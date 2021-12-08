@@ -307,7 +307,7 @@ margin-left:5px;
 background-color: #116466;
 }
 
-.caption {
+.captionUrban {
   font-size: 20px;
 }
 /* styling the contaniner and making sure it's responsive  */
@@ -336,6 +336,8 @@ It forces the captions to stay within the bounds of the images (337px)*/
 .caption {
   display: block;
   width:100%;
+  color: #2C3531;
+  font-size: larger;
 }
 /*styles the team member names and roles with various font properties*/
 .memberName {
