@@ -77,6 +77,7 @@ img {
   height: 100%;
   object-fit: contain;
 }
+/* end of main template CSS section */
 
 /*Home page CSS by Kira*/
 /*Formatting the text blurbs on the home page to not use the default h1 and h2 properties*/
@@ -161,7 +162,6 @@ img {
   font-size: 25px;
   padding-bottom:10px;
   flex:80%;
- 
 }
 
 .servicesummary{
@@ -171,7 +171,6 @@ img {
   justify-content: space-evenly;
 }
 
-
 .icon{
   max-width:100%;
   margin: auto;
@@ -179,7 +178,6 @@ img {
   justify-content: center;
 }
 /* end of home services summary banner -KS  and KL 21-12-07*/
-
 
 
 /* Steph's Forestry stuff */
@@ -246,31 +244,31 @@ img {
 @media screen and (max-width: 500px) {
   .column2 {
     width: 100%;
- }
+  }
 }
 
 @media screen and (max-width: 500px) {
   .forestimage {
     width: 100%;
- }
+  }
 }
 
 @media screen and (max-width: 500px) {
   .forestcolumn {
     width: 100%;
- }
+  }
 }
 
 @media screen and (max-width: 500px) {
   .forestrycontainer {
     width: 100%;
- }
+  }
 }
 
 @media screen and (max-width: 500px) {
   .foresttext {
     width: 100%;
- }
+  }
 }
 
 /* End of Steph's Forestry Stuff */
@@ -285,7 +283,6 @@ img {
 
   background-color: #D1E8E2;
   padding:20px;
- 
 }
 
 .maps {
@@ -313,7 +310,6 @@ background-color: #116466;
   justify-content: center;
 }
 /*Ending of KS css- 2021-12-07*/
-
 
 
 /* This is the css for the About Us page - written by Kira*/
@@ -349,7 +345,6 @@ It forces the captions to stay within the bounds of the images (337px)*/
 /*Media query and responsive design for the content on the about us page.
 Starting at 720px or screen size less than that, forces each biography 'column' to be shown on its own row 
 (take up 100%) for better mobile viewing*/
-
 @media screen and (max-width: 720px) {
   .bioImg-with-text {
     width: 100%;
@@ -665,7 +660,7 @@ div.archRowContainerB {
   background-color: #6c442394;
   padding: 30px;
 }
-/* style for row within main container */
+/* style for row within main container CB */
 div.archRow {
 	display: flex;
 	align-items: center;
