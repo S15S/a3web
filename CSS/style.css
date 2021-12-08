@@ -273,14 +273,14 @@ img {
 
 /* End of Steph's Forestry Stuff */
 
+
 /*beginning of urban planning page CSS by Kathleen */
-#UrbanPlanning {
-  line-height: 25px;
-  font-size:20px;
-}
+ 
+
 
 .planningLeft { 
-
+  line-height: 25px;
+  font-size:20px;
   background-color: #D1E8E2;
   padding:20px;
 }
